@@ -10,6 +10,6 @@ layout: default
 
 # Hi, my name is Ben Berg.
 I'm a fifth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, where I'm advised by Mor Harchol-Balter.\
-I'm currently supported by a [Facebook Graduate Fellowship](https://research.fb.com/fellows/berg-benjamin/)\
+I'm currently supported by a [Facebook Graduate Fellowship](https://research.fb.com/fellows/berg-benjamin/).\
 \
-Here are links to online copies of my [publications](/publications/) as well as my [CV](/CV.pdf)
+Here are links to online copies of my [publications](/publications/) as well as my [CV](/CV.pdf).
