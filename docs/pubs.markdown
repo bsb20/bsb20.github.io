@@ -3,11 +3,11 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
-***The CacheLib Caching Engine: Design and Experiences at Scale***\
-Benjamin Berg, Daniel Berger, Sara McAllister, Isaac Grosof, Sathya Gunasekar, Jimmy Lu, Michael Uhlar, Jim Carrig, Nathan Beckmann, Mor Harchol-Balter, Greg Ganger. OSDI 2020 (to appear).\
+***[The CacheLib Caching Engine: Design and Experiences at Scale](https://www.usenix.org/system/files/osdi20-berg.pdf)***\
+Benjamin Berg, Daniel Berger, Sara McAllister, Isaac Grosof, Sathya Gunasekar, Jimmy Lu, Michael Uhlar, Jim Carrig, Nathan Beckmann, Mor Harchol-Balter, Greg Ganger. OSDI 2020.\
 \
-***heSRPT: Parallel Scheduling to Minimize Mean Slowdown***\
-Benjamin Berg, Rein Vesilo and Mor Harchol-Balter.  IFIP Performance, PEVA 2020 (to appear).\
+***[heSRPT: Parallel Scheduling to Minimize Mean Slowdown](https://arxiv.org/pdf/2011.09676.pdf)***\
+Benjamin Berg, Rein Vesilo and Mor Harchol-Balter.  IFIP Performance, PEVA 2020.\
 \
 ***[Optimal Resource Allocation for Elastic and Inelastic Jobs](https://dl.acm.org/doi/pdf/10.1145/3350755.3400265)***\
 Benjamin Berg, Mor Harchol-Balter, Ben Moseley, Weina Wang, Justin Whitehouse. SPAA 2020.\
