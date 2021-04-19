@@ -10,4 +10,4 @@ My thesis proposal is slated for May 10th, 2021.  I will be keeping an updated d
 
 ***[Thesis Proposal](/proposal.pdf) \(last updated 4/19/21\)***
 
-I plan to defend my thesis in Spring of 2021, check here for further updates!
+I plan to defend my thesis in Spring of 2022, check here for further updates!
