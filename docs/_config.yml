@@ -35,6 +35,7 @@ header_pages:
   - index.markdown
   - pubs.markdown
   - cv.markdown
+  - thesis.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
