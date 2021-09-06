@@ -16,5 +16,5 @@ Here are links to online copies of my [publications](/publications/) as well as 
 
 In general, I am interested in using performance modeling to make better resource allocation decisions in computer systems.
 I mainly focus on [scheduling parallelizable jobs](/parallel/), where one must decide how to allocate cores or servers among parallelizable jobs.
-I also work on [caching](/caching/), where one must decide how to best allocate cache space when admitting or evicting objects.  bump
+I also work on [caching](/caching/), where one must decide how to best allocate cache space when admitting or evicting objects.
 
