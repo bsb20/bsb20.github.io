@@ -3,8 +3,14 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
+***The Case for Phase-Aware Scheduling of Parallelizable Jobs***\
+Benjamin Berg, Justin Whitehouse, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. To appear at IFIP Performance 2021.\
+\
+***Kangaroo: Caching Billions of Tiny Objects on Flash***\
+Sara McAllister, Benjamin Berg, Julian Tutuncu-Macias, Juncheng Yang, Sathya Gunasekar, Jimmy Lu, Daniel Berger, Nathan Beckmann, and Gregory R. Ganger.  To appear at SOSP 2021.\
+\
 ***[The CacheLib Caching Engine: Design and Experiences at Scale](https://www.usenix.org/system/files/osdi20-berg.pdf)***\
-Benjamin Berg, Daniel Berger, Sara McAllister, Isaac Grosof, Sathya Gunasekar, Jimmy Lu, Michael Uhlar, Jim Carrig, Nathan Beckmann, Mor Harchol-Balter, Greg Ganger. OSDI 2020.\
+Benjamin Berg, Daniel Berger, Sara McAllister, Isaac Grosof, Sathya Gunasekar, Jimmy Lu, Michael Uhlar, Jim Carrig, Nathan Beckmann, Mor Harchol-Balter, Gregory R. Ganger. OSDI 2020.\
 \
 ***[heSRPT: Parallel Scheduling to Minimize Mean Slowdown](https://arxiv.org/pdf/2011.09676.pdf)***\
 Benjamin Berg, Rein Vesilo and Mor Harchol-Balter.  IFIP Performance, PEVA 2020.\
