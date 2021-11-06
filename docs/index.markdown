@@ -12,7 +12,7 @@ layout: default
 I'm a sixth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, where I'm advised by Mor Harchol-Balter.\
 I was a recipient of the [Facebook Graduate Fellowship](https://research.fb.com/fellows/berg-benjamin/).\
 \
-I am getting ready to be on the academic job market this year.  Here is a draft of my [research statement](research.pdf) that I'll be updating over the next few weeks.\
+I am on the academic job market this year!  Here are drafts of my [research statement](research.pdf) and [teaching statement](teaching.pdf) that I'll be updating over the next few weeks.\
 \
 Here are links to online copies of my [publications](/publications/) as well as my [CV](/CV.pdf).
 \
