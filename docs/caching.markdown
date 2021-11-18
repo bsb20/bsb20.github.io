@@ -13,7 +13,7 @@ Our [Robinhood](https://www.usenix.org/system/files/osdi18-berger.pdf) paper tac
 
 What we found after developing RobinHood was that there were many barriers to deploying new and innovative caching systems in a modern production environment.  This led to my collaboration with Facebook on the publication of our [CacheLib paper](https://www.usenix.org/system/files/osdi20-berg.pdf).  CacheLib, which was recently made [open source](https://cachelib.org/), is a general-purpose caching engine which makes is easier to build and deploy caches at scale which leverage state-of-the-art caching policies and features.
 
-One of the main ideas with CacheLib was to make it easier for new ideas from the caching literature to be adopted in production systems.  We have already started to see this trend with the publication of our [Kangaroo](/publications/) paper (to appear at SOSP 2021) which presents a new system for caching more efficiently using flash devices.  We were able to develop this system using CacheLib and deploy it straight into Facebook's production environment.
+One of the main ideas with CacheLib was to make it easier for new ideas from the caching literature to be adopted in production systems.  We have already started to see this trend with the publication of our [Kangaroo](/publications/) paper (awarded Best Paper at SOSP 2021) which presents a new system for caching more efficiently using flash devices.  We were able to develop this system using CacheLib and deploy it straight into Facebook's production environment.
 
 For a summary of my work on CacheLib, you can see my presentation from OSDI 2020 below.
 
