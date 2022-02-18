@@ -12,7 +12,7 @@ layout: default
 I'm a sixth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, where I'm advised by Mor Harchol-Balter.\
 I was a recipient of the [Facebook Graduate Fellowship](https://research.fb.com/fellows/berg-benjamin/).\
 \
-I am on the academic job market this year!  Here are drafts of my [research statement](research.pdf) and [teaching statement](teaching.pdf) that I'll be updating over the next few weeks.\
+I am on the academic job market this year!  Please check out my [research statement](research.pdf) and [teaching statement](teaching.pdf).\
 \
 Here are links to online copies of my [publications](/publications/) as well as my [CV](/CV.pdf).
 \
@@ -20,3 +20,5 @@ In general, I am interested in using performance modeling to make better resourc
 I mainly focus on [scheduling parallelizable jobs](/parallel/), where one must decide how to allocate cores or servers among parallelizable jobs.
 I also work on [caching](/caching/), where one must decide how to best allocate cache space when admitting or evicting objects.
 
+Here's a video that gives a brief synopsis of my research and future plans:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LGxCOnfHZII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
