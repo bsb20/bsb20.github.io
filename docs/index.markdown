@@ -12,7 +12,10 @@ layout: default
 I'm a sixth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, where I'm advised by Mor Harchol-Balter.\
 I was a recipient of the [Facebook Graduate Fellowship](https://research.fb.com/fellows/berg-benjamin/).\
 \
-I am on the academic job market this year!  Please check out my [research statement](research.pdf) and [teaching statement](teaching.pdf).\
+~~I am on the academic job market this year!  Please check out my [research statement](research.pdf) and [teaching statement](teaching.pdf).~~\
+\
+I am **thrilled** to announce that I will be starting as an Assistant Professor in the Computer Science Department at the University of North Carolina at Chapel Hill in the Fall of 2022.\
+I plan to continue to root for the Duke Blue Devils (my alma mater), and to troll my students whenever possible.\
 \
 Here are links to online copies of my [publications](/publications/) as well as my [CV](/CV.pdf).
 \
