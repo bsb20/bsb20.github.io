@@ -34,8 +34,8 @@ plugins:
 header_pages:
   - index.markdown
   - pubs.markdown
+  - teaching.markdown
   - cv.markdown
-  - thesis.markdown
   - parallel.markdown
   - caching.markdown
 
