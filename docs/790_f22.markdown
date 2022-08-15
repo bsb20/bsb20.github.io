@@ -7,6 +7,10 @@ permalink: /teaching/790_f22
 
 ### [Syllabus](./790_f22/syllabus_w_policies.pdf) (PDF)
 
+### [Homework 1 (Due 8/22)](./790_f22/hw1.pdf) (PDF)
+
+
+
 ### Course Schedule
 
 | Lecture | Date  | DoW | Topic                                                                             | Work Due |
