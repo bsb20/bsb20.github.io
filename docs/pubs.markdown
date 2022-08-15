@@ -26,3 +26,7 @@ Benjamin Berg, Jan-Pieter Dorsman, and Mor Harchol-Balter. SIGMETRICS/POMACS 201
 \
 ***[RobinHood: Tail Latency Aware Caching -- Dynamic Reallocation from Cache-Rich to Cache-Poor](https://www.usenix.org/system/files/osdi18-berger.pdf)***
 Daniel S. Berger and Benjamin Berg, Timothy Zhu, Siddhartha Sen, Mor Harchol-Balter.  OSDI 2018.
+
+### ***Thesis*** 
+***[A Principled Approach to Parallel Job Scheduling](./bsberg_phd_csd_2022.pdf)***\
+Benjamin Berg, CMU 2022
