@@ -5,6 +5,8 @@ permalink: /teaching/790_f22
 ---
 ## ***COMP 790: Stochastic Performance Modeling and Scheduling in Computer Systems***
 
+### Office Hours: Tuesday 10:00 - 11:30, Thursday 4:00 - 5:30
+
 ### [Syllabus](./790_f22/syllabus_w_policies.pdf) (PDF)
 
 ### [Homework 1 (Due 8/22)](./790_f22/hw1.pdf) (PDF)
