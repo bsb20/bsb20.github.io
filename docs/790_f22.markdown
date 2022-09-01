@@ -25,9 +25,9 @@ permalink: /teaching/790_f22
 |       4 |  8/24 | W   | Chpt 5: Convergence of Random Variables and Time Average versus Ensemble Average. |          |
 |       5 |  8/29 | M   | Chpt 6: Operational Laws (Little's Law)                                           |          |
 |       6 |  8/31 | W   | Chpt 7: Modification Analysis                                                     |          |
-|         |   9/5 | M   | ***LABOR DAY, NO CLASS***                                                               |          |
-|       7 |   9/7 | W   | Chpt 8: Discrete-time Markov Chains                                               | HW 2 Due |
-|       8 |  9/12 | M   | Chpt 9: Ergodicity - Finite-state DTMCs                                           |          |
+|         |   9/5 | M   | ***LABOR DAY, NO CLASS***                                                         |          |
+|       7 |   9/7 | W   | Chpt 8: Discrete-time Markov Chains                                               |          |
+|       8 |  9/12 | M   | Chpt 9: Ergodicity - Finite-state DTMCs                                           | HW 2 Due |
 |       9 |  9/14 | W   | Chpt 11: Exponential Distribution                                                 |          |
 |      10 |  9/19 | M   | Chpt 11: Poisson Process                                                          |          |
 |      11 |  9/21 | W   | Chpt 12,13: M/M/1                                                                 |          |
