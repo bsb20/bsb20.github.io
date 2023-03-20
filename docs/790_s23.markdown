@@ -31,14 +31,14 @@ permalink: /teaching/790_s23
 | 13      | 2/28 | T   | Scheduling I                                              |                          |
 | 14      | 3/2  | Th  | Scheduling II                                             |                          |
 | 15      | 3/7  | T   | Setup Times: auto-scaling and power management            |                          |
-| 16      | 3/9  | Th  | Optimizing Tails: concentration bounds, RobinHood caching |                          |
+| 16      | 3/9  | Th  |                                                           |                          |
 |         | 3/14 | T   | ***Spring Break: NO CLASS***                              |                          |
 |         | 3/16 | Th  | ***Spring Break: NO CLASS***                              |                          |
 | 17      | 3/21 | T   | Minimums and maximums of Independent Random Variables     |                          |
-| 18      | 3/23 | Th  | Project Milestones                                        | Written Milestone Report |
-| 19      | 3/28 | T   | Project Milestones                                        |                          |
+| 18      | 3/23 | Th  | Optimizing Tails: concentration bounds, RobinHood caching |                          |
+| 19      | 3/28 | T   | Project Milestones                                        | Written Milestone Report |
 | 20      | 3/30 | Th  | Project Milestones                                        |                          |
-| 21      | 4/4  | T   | Topics TBD (based on student projects)                    |                          |
+| 21      | 4/4  | T   | Project Milestones                                        |                          |
 | 22      | 4/6  | Th  | -                                                         |                          |
 | 23      | 4/11 | T   | -                                                         |                          |
 | 24      | 4/13 | Th  | -                                                         |                          |
