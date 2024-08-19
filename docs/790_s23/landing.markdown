@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: Teaching 
-permalink: /teaching/790_s23
+permalink: /teaching/790_s23/landing
 ---
 ## ***COMP 790: Computer Systems Design: A Quantitative Approach***
 

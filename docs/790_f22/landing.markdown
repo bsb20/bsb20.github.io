@@ -1,7 +1,7 @@
 ---
 layout: default 
 title: Teaching 
-permalink: /teaching/790_f22
+permalink: /teaching/790_f22/landing
 ---
 ## ***COMP 790: Stochastic Performance Modeling and Scheduling in Computer Systems***
 
