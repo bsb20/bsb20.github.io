@@ -3,6 +3,21 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
+***[FairyWren: A Sustainable Cache for Emerging Write-Read-Erase Flash Interfaces](https://www.usenix.org/system/files/osdi24-mcallister.pdf)***\
+Sara McAllister, Yucong "Sherry" Wang, Benjamin Berg, Daniel S Berger, George Amvrosiadis, Nathan Beckmann, Gregory R Ganger. OSDI 2024.\
+\
+***[How to Rent GPUs on a Budget](https://arxiv.org/pdf/2406.15560)***\
+Zhouzi Li, Benjamin Berg, Arpan Mukhopadhyay, Mor Harchol-Balter. EPEW 2024.\
+\
+***[Asymptotically Optimal Scheduling of Multiple Parallelizable Job Classes](https://arxiv.org/pdf/2404.00346)***\
+Benjamin Berg, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. Preprint 2024.\
+\
+***[Statistical verification of autonomous system controllers under timing uncertainties.](rts-2024.pdf)***\
+Bineet Ghosh, Clara Hobbs, Shengjie Xu, Don Smith, James H Anderson, PS Thiagarajan, Benjamin Berg, Parasara Sridhar Duggirala, Samarjit Chakraborty. Real-Time Systems 2024.\
+\
+***[Simple Policies for Multiresource Job Scheduling](https://isaacg1.github.io/assets/simple-multiresource.pdf)***\
+Zhongrui Chen, Isaac Grosof, Benjamin Berg. MAMA, PER 2024.\
+\
 ***[The Case for Phase-Aware Scheduling of Parallelizable Jobs](https://www.cs.cmu.edu/~harchol/Papers/PEVA21.pdf)***\
 Benjamin Berg, Justin Whitehouse, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. IFIP Performance, PEVA 2021.\
 \

@@ -7,7 +7,7 @@ permalink: /teaching/790_s23
 
 ### Office Hours: M 3:00-4:30, Th 11:00-12:30
 
-### [Syllabus](./790_s23/syllabus_w_policies.pdf) (PDF)
+### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
 
 ### Course Schedule

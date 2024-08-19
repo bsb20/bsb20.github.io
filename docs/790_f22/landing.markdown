@@ -7,15 +7,15 @@ permalink: /teaching/790_f22
 
 ### Office Hours: Tuesday 10:00 - 11:30, Thursday 4:00 - 5:30
 
-### [Syllabus](./790_f22/syllabus_w_policies.pdf) (PDF)
+### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
-### [Homework 1 (Due 8/22)](./790_f22/hw1.pdf) (PDF)
+### [Homework 1 (Due 8/22)](./hw1.pdf) (PDF)
 
-### [Homework 2 (Due 9/12)](./790_f22/hw2.pdf) (PDF)
+### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
 
-### [Homework 3 (Due 9/28)](./790_f22/hw3.pdf) (PDF)
+### [Homework 3 (Due 9/28)](./hw3.pdf) (PDF)
 
-### [Homework 4 (Due 10/19)](./790_f22/hw4.pdf) (PDF)
+### [Homework 4 (Due 10/19)](./hw4.pdf) (PDF)
 
 
 
