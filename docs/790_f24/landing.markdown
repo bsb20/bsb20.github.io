@@ -11,7 +11,7 @@ permalink: /teaching/790_f24/landing
 
 ### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
-### [Homework 1 (Due 8/22)](./hw1.pdf) (PDF)
+### [Homework 1 (Due 8/27)](./hw1.pdf) (PDF)
 
 <!-- ### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
 
