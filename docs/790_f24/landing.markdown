@@ -12,6 +12,7 @@ permalink: /teaching/790_f24/landing
 ### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
 ### [Homework 1 (Due 8/27)](./hw1.pdf) (PDF)
+### [Homework 2 (Due 9/17)](./hw2.pdf) (PDF)
 
 <!-- ### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
 
@@ -69,8 +70,8 @@ permalink: /teaching/790_f24/landing
 |       5 |   9/3 | T   | Well Being Day, NO CLASS                                                          |          |
 |       6 |   9/5 | Th  | Chpt 6: Operational Laws (Little's Law)                                           |          |
 |         |  9/10 | T   | Chpt 7: Modification Analysis                                                     |          |
-|       7 |  9/12 | Th  | Chpt 8: Discrete-time Markov Chains                                               | HW 2 Due |
-|       8 |  9/17 | T   | Chpt 9: Ergodicity - Finite-state DTMCs                                           |          |
+|       7 |  9/12 | Th  | Chpt 8: Discrete-time Markov Chains                                               |          |
+|       8 |  9/17 | T   | Chpt 9: Ergodicity - Finite-state DTMCs                                           | HW 2 Due |
 |       9 |  9/19 | Th  | Chpt 11: Exponential Distribution                                                 |          |
 |      10 |  9/24 | T   | Chpt 11: Poisson Process                                                          |          |
 |      11 |  9/26 | Th  | Chpt 12,13: M/M/1                                                                 |          |
