@@ -14,6 +14,7 @@ permalink: /teaching/790_f24/landing
 ### [Homework 1 (Due 8/27)](./hw1.pdf) (PDF)
 ### [Homework 2 (Due 9/17)](./hw2.pdf) (PDF)
 ### [Homework 3 (Due 10/3)](./hw3.pdf) (PDF)
+### [Homework 4 (Due 11/5)](./hw4.pdf) (PDF)
 
 <!-- ### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
 
