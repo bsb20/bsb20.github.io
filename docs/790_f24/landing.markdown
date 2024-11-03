@@ -14,7 +14,7 @@ permalink: /teaching/790_f24/landing
 ### [Homework 1 (Due 8/27)](./hw1.pdf) (PDF)
 ### [Homework 2 (Due 9/17)](./hw2.pdf) (PDF)
 ### [Homework 3 (Due 10/3)](./hw3.pdf) (PDF)
-### [Homework 4 (Due 11/5)](./hw4.pdf) (PDF)
+### [Homework 4 (Due 11/7)](./hw4.pdf) (PDF)
 ### [Paper Presentation Guide](./paper_presentations.pdf) (PDF)
 
 <!-- ### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
@@ -48,14 +48,14 @@ permalink: /teaching/790_f24/landing
 |      15 | 10/10 | Th  | Chpt 14: M/M/k                                                                    |          |
 |      16 | 10/15 | T   | Chpt 15: Capacity Provisioning                                                    |          |
 |         | 10/17 | Th  | Fall Break, NO CLASS                                                              |          |
-|      17 | 10/22 | T   | Chpt 20: Pareto Distribution                                                      | HW 4 Due |
+|      17 | 10/22 | T   | Chpt 20: Pareto Distribution                                                      |          |
 |      18 | 10/24 | Th  | Chpt 21: Phase-type distributions + start Chpt23                                  |          |
 |      19 | 10/29 | T   | Chpt 23: M/G/1                                                                    |          |
-|      20 | 10/31 | Th  | Paper Discussions                                                                 |          |
-|      21 |  11/5 | T   | -                                                                                 |          |
-|      22 |  11/7 | Th  | -                                                                                 |          |
-|      23 | 11/12 | T   | -                                                                                 |          |
-|      24 | 11/14 | Th  | -                                                                                 |          |
+|      20 | 10/31 | Th  | Scheduling I                                                                      |          |
+|      21 |  11/5 | T   | NO CLASS                                                                          |          |
+|      22 |  11/7 | Th  | Scheduling II                                                                     | HW 4 Due |
+|      23 | 11/12 | T   | Scheduling III                                                                    |          |
+|      24 | 11/14 | Th  | Paper Presentations                                                               |          |
 |      25 | 11/19 | T   | -                                                                                 |          |
 |      26 | 11/21 | Th  | -                                                                                 |          |
 |         | 11/26 | T   | -                                                                                 |          |
