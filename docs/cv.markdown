@@ -1,5 +1,5 @@
 ---
 layout: default
 title: CV
-permalink: /CV.pdf
+permalink: /berg_cv_s24.pdf
 ---
