@@ -15,7 +15,7 @@ Benjamin Berg, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. Preprint 2024.\
 ***[Statistical verification of autonomous system controllers under timing uncertainties.](rts-2024.pdf)***\
 Bineet Ghosh, Clara Hobbs, Shengjie Xu, Don Smith, James H Anderson, PS Thiagarajan, Benjamin Berg, Parasara Sridhar Duggirala, Samarjit Chakraborty. Real-Time Systems 2024.\
 \
-***[Simple Policies for Multiresource Job Scheduling](https://isaacg1.github.io/assets/simple-multiresource.pdf)***\
+***[Simple Policies for Multiresource Job Scheduling](MAMA.pdf)***\
 Zhongrui Chen, Isaac Grosof, Benjamin Berg. MAMA, PER 2024.\
 \
 ***[The Case for Phase-Aware Scheduling of Parallelizable Jobs](https://www.cs.cmu.edu/~harchol/Papers/PEVA21.pdf)***\
