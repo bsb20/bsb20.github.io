@@ -4,3 +4,7 @@
 .course-nav {
     float: left;
 }
+
+.mx-auto{
+    margin: 0 20% 0;
+}
