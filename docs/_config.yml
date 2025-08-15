@@ -39,6 +39,16 @@ header_pages:
   - parallel.markdown
   - caching.markdown
 
+421_title: "COMP 421: Files and Databases"
+421_pages:
+  - 421_f25/sched.markdown
+  - 421_f25/proj.markdown
+  - 421_f25/policies.markdown
+  - 421_f25/docs.markdown
+
+
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
