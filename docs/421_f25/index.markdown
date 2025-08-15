@@ -1,12 +1,14 @@
 ---
 layout: 421
 title: Teaching 
-permalink: /teaching/421_f25/
+permalink: /421_f25/
 ---
 
 ### Monday, Wednesday; 12:20 - 1:35 Murphey 116
 
 ### Office Hours: TBD
+
+### [Course syllabus](421_syllabus.pdf) (PDF)
 
 This is the official course page for COMP 421: Files and Databases.
 This semester (Fall 2025) marks a new direction for the course compared to previous versions, with a new emphasis on database *systems* rather than applications and data modeling.
