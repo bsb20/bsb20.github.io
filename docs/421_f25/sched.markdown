@@ -1,14 +1,14 @@
 ---
 layout: 421 
 title: Schedule
-permalink: /teaching/421_f25/sched
+permalink: /421_f25/sched
 ---
 
 ### Course Schedule
 
 | Lecture | Date  | DoW | Topic                               | Project Info |
 |---------|-------|-----|-------------------------------------|--------------|
-|       0 |  8/18 | M   | Course Overview, Files              | [P0 Released](./p0)  |
+|       0 |  8/18 | M   | Course Overview, Files              | **[P0 Released](./p0)**  |
 |       1 |  8/21 | W   | Relational Algebra                  |              |
 |       2 |  8/25 | M   | SQL                                 |              |
 |     2.5 |  8/27 | W   | SQL II                              |              |
