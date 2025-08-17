@@ -10,6 +10,8 @@ permalink: /421_f25/
 
 ### [Course syllabus](421_syllabus.pdf) (PDF)
 
+### [Canvas](https://uncch.instructure.com/courses/91095) | [Gradescope](https://www.gradescope.com/courses/1078768)
+
 This is the official course page for COMP 421: Files and Databases.
 This semester (Fall 2025) marks a new direction for the course compared to previous versions, with a new emphasis on database *systems* rather than applications and data modeling.
 To kickstart this change, the course is forked from CMU's [Intro to Database Systems](https://15445.courses.cs.cmu.edu/fall2024/).
