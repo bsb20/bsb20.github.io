@@ -9,7 +9,7 @@ permalink: /421_f25/sched
 | Lecture | Date  | DoW | Topic                               | Project Info |
 |---------|-------|-----|-------------------------------------|--------------|
 |       0 |  8/18 | M   | Course Overview, Files [(PDF)](./lectures/L0.pdf)             | **[P0 Released](./p0)**  |
-|       1 |  8/21 | W   | Relational Algebra                  |              |
+|       1 |  8/21 | W   | Relational Algebra [(PDF)](./lectures/L1.pdf)                 |              |
 |       2 |  8/25 | M   | SQL                                 |              |
 |     2.5 |  8/27 | W   | SQL II                              |              |
 |         |   9/1 | M   | LABOR DAY, NO CLASS                 |              |
