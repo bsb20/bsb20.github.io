@@ -10,3 +10,36 @@
 .mx-auto{
     margin: 0 20% 0;
 }
+@media (max-width: 550px) {
+   .big-container {
+       display: none;
+   }
+}
+@media (min-width: 550px) {
+   .small-container {
+       display: none;
+   }
+}
+.big-container{
+    width: 150%;
+   height: 250px;
+}
+.small-container{
+    height: 700px;
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   overflow: hidden;
+}
+.responsive-iframe-container iframe,
+.responsive-iframe-container object,
+.responsive-iframe-container embed {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
