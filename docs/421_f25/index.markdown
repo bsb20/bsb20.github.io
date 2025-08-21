@@ -6,7 +6,7 @@ permalink: /421_f25/
 
 ### Monday, Wednesday; 12:20 - 1:35 Murphey 116
 
-### Office Hours: TBD
+### Office Hours: [See Schedule](./office-hours)
 
 ### [Course syllabus](421_syllabus.pdf) (PDF)
 
