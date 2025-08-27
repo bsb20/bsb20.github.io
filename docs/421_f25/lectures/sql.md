@@ -225,6 +225,7 @@ The answers to these questions are not well hidden.  Don't look up the answers, 
   <h3>Q3 (q3_oldest_people):</h3>
   Determine the oldest people in the dataset who were born in or after 1900.
   You should assume that a person without a known death year is still alive.
+  <b>This dataset and question is from 2022, for people who were alive when this data was collected, calculate their age in 2022</b>
   <p><b>Details:</b>
   Print the name and age of each person. People should be
   ordered by a compound value of their age and secondly their name in
