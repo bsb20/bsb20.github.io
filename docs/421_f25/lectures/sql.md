@@ -84,9 +84,9 @@ Contains details of a title. For example, this is a row from the table:
 tt0088763|movie|Back to the Future|Back to the Future|0|1985||116|Adventure,Comedy,Sci-Fi
 </pre>
 
-For this assignment, we will focus on the fields `title_id` (e.g. "tt0088763"), `type` (e.g. "movie"), `primary_title` (e.g. "Back to the Future"), `premiered` (e.g. "1985"), and `genres` (e.g. "Adventure,Comedy,Sci-Fi").
+We will focus on the fields `title_id` (e.g. "tt0088763"), `type` (e.g. "movie"), `primary_title` (e.g. "Back to the Future"), `premiered` (e.g. "1985"), and `genres` (e.g. "Adventure,Comedy,Sci-Fi").
 
-Titles may also be referred to as "works" in the assignment specification.
+Titles may also be referred to as "works" in this specification.
 
 ### AKAS
 <pre>
@@ -109,7 +109,7 @@ This table contains the alternate titles for the dubbed movies. Note that `title
 tt0015648|El acorazado Potemkin|XSA|es|imdbDisplay||0
 </pre>
 
-For this assignment, we will not use the fields `region`, `types`, `attributes` or `is_original_title`.
+We will not use the fields `region`, `types`, `attributes` or `is_original_title`.
 
 Note that title_id in this table corresponds to title_id in titles.
 
@@ -132,7 +132,7 @@ Contains the details of the cast of the title. For example, this is a row from t
 tt0000886|nm0609814|actor||["Hamlet"]
 </pre>
 
-For this assignment, we will not use the fields `job` or `characters`. When considering the role of an individual on the crew, refer to the field `category`.
+We will not use the fields `job` or `characters`. When considering the role of an individual on the crew, refer to the field `category`.
 
 Note that title_id corresponds to title_id in titles and person_id corresponds to person_id in people.
 
