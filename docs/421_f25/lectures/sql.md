@@ -1,6 +1,6 @@
 ---
 layout: 421
-title: Teaching 
+title: SQL
 permalink: /421_f25/lectures/sql
 ---
 
