@@ -289,7 +289,7 @@ The answers to these questions are not well hidden.  Don't look up the answers, 
 <div class="question">
   <h3>Q8 (q8_kidman_colleagues):</h3>
   List the all the different actors and actresses who have starred in a work
-  with Nicole Kidman (born in 1967).
+  where Nicole Kidman had any involvement.
   <p><b>Details:</b>
   Print only the names of the actors and actresses in alphabetical
   order. The answer should include Nicole Kidman herself. Each name should
@@ -303,11 +303,10 @@ The answers to these questions are not well hidden.  Don't look up the answers, 
 <div class="question">
   <h3>Q9 (q9_9th_decile_ratings):</h3>
   For all people born in 1955, get their name and average rating on all
-  movies they have been part of through their careers. Output the 9th decile of
-  individuals as measured by their average career movie rating.
+  movies they have been part of through their careers.  Across the set of people born in 1955, output those whose average rating is in the 9th decile.
   <p><b>Details:</b>
   Calculate average ratings for each individual born in 1955 across
-  only the <b>movies</b> they have been part of. Compute the quantiles for each
+  only the <b>movies</b> they have been part of. Compute the quantile of each
   individual's average rating using
   <a href="https://www.sqlitetutorial.net/sqlite-window-functions/sqlite-ntile/">NTILE(10)</a>.<br/>
   Make sure your output is formatted as follows (round average rating to
@@ -315,8 +314,8 @@ The answers to these questions are not well hidden.  Don't look up the answers, 
   their ratings descending and secondly their name in alphabetical order):
   <code>Stanley Nelson|7.13</code>
   <b>Note:</b> You should take quantiles after processing the average career
-  movie rating of individuals. In other words, find the individuals who have
-  an average career movie rating in the 9th decile of all individuals.
+  movie rating of individuals. In other words, find the individuals born in 1955 who have
+  an average career movie rating in the 9th decile of all individuals born in 1955.
   </p>
 </div>
 
