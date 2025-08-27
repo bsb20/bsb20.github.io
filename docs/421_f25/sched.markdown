@@ -10,7 +10,7 @@ permalink: /421_f25/sched
 |       0 |  8/18 | M   | Course Overview, Files [(PDF)](./lectures/L0.pdf)             | **[P0 Released](./p0)** | -- | [OSTEP: HDDs](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf) |
 |       1 |  8/21 | W   | Relational Algebra [(PDF)](./lectures/L1.pdf)                 |                         | Ch. 2| [OSTEP: Files](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [OSTEP: File Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [CACM: 50 Years of Databases](https://cacm.acm.org/research/50-years-of-queries/) |
 |       2 |  8/25 | M   | SQL [(PDF)](./lectures/L2.pdf)                                |                         | Ch. 3| [XKCD](https://xkcd.com/327/)|
-|     2.5 |  8/27 | W   | SQL II [SQL Practice](./lectures/sql)                                                       |                         | Ch. 4, Ch. 5 ||
+|     2.5 |  8/27 | W   | SQL II [(SQL Practice)](./lectures/sql)                                                       |                         | Ch. 4, Ch. 5 ||
 |         |   9/1 | M   | LABOR DAY, NO CLASS                                           |                         |||
 |       3 |   9/3 | W   | Storage I                                                     | P0 Due                  |||
 |       4 |   9/8 | M   | Storage II                                                    | P1 Released             |||
