@@ -13,11 +13,11 @@ permalink: /421_f25/sched
 |     -- |  8/25 - 26 | --   | Bootcamp 1 [(Slides)](./lectures/bootcamp_1.pdf)             |                         |              ||
 |     2.5 |  8/27 | W   | SQL II [(SQL Practice)](./lectures/sql)                       |                         | Ch. 4, Ch. 5 ||
 |         |   9/1 | M   | LABOR DAY, NO CLASS                                           |                         |||
-|       3 |   9/3 | W   | Storage I                                                     | P0 Due                  |||
-|       4 |   9/8 | M   | Storage II                                                    | P1 Released             |||
-|       5 |  9/10 | W   | Storage Models, Compression                                   |                         |||
+|       3 |   9/3 | W   | Storage I                                                     | P0 Due                  |Ch. 12.1-12.4, 13.2-13.3| [postgres docs](https://www.postgresql.org/docs/current/storage-page-layout.html)|
+|       4 |   9/8 | M   | Storage II                                                    | P1 Released             |Ch. 14.8, 24.2|[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)|
+|       5 |  9/10 | W   | Memory Management                                             |                         |Ch. 13.2 -13.5||
 |         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
-|       6 |  9/17 | W   | Memory Management                                             |                         |||
+|       6 |  9/17 | W   | Storage Models, Compression                                   |                         |||
 |       7 |  9/22 | M   | Hash Table                                                    |                         |||
 |       8 |  9/24 | W   | B Trees                                                       | P2 Released             |||
 |       9 |  9/29 | M   | Tries, Bloom Filters                                          | P1 Due                  |||
