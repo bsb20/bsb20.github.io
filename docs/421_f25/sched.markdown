@@ -15,7 +15,7 @@ permalink: /421_f25/sched
 |         |   9/1 | M   | LABOR DAY, NO CLASS                                           |                         |||
 |       3 |   9/3 | W   | Storage I [(PDF)](./lectures/L3.pdf)                                                     | P0 Due                  |Ch. 12.1-12.4, 13.2-13.3| [postgres docs](https://www.postgresql.org/docs/current/storage-page-layout.html)|
 |       4 |   9/8 | M   | Storage II [(PDF)](./lectures/L4.pdf)                         | **[P1 Released](./p1)** |Ch. 14.8, 24.2|[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)|
-|       5 |  9/10 | W   | Memory Management                                             |                         |Ch. 13.2 -13.5||
+|       5 |  9/10 | W   | Memory Management [(PDF)](./lectures/L5.pdf)                                           |                         |Ch. 13.2 -13.5||
 |         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
 |       6 |  9/17 | W   | Storage Models, Compression                                   |                         |||
 |       7 |  9/22 | M   | Hash Table                                                    |                         |||
