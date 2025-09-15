@@ -17,28 +17,28 @@ permalink: /421_f25/sched
 |       4 |   9/8 | M   | Storage II [(PDF)](./lectures/L4.pdf)                         | **[P1 Released](./p1)** |Ch. 14.8, 24.2|[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)|
 |       5 |  9/10 | W   | Memory Management [(PDF)](./lectures/L5.pdf)                                           |                         |Ch. 13.2 -13.5||
 |         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
-|       6 |  9/17 | W   | Storage Models, Compression                                   |                         |||
-|       7 |  9/22 | M   | Hash Table                                                    |                         |||
-|       8 |  9/24 | W   | B Trees                                                       | P2 Released             |||
-|       9 |  9/29 | M   | Tries, Bloom Filters                                          | P1 Due                  |||
-|      10 |  10/1 | W   | Concurrent Data Structures                                    |                         |||
-|      11 |  10/6 | M   | Extrenal Sort, External Aggregation                           |                         |||
-|      12 |  10/8 | W   | Joins                                                         |                         |||
-|         | 10/13 | M   | Midterm Review                                                |                         |||
-|         | 10/15 | W   | Midterm Exam                                                  |                         |||
-|      13 | 10/20 | M   | Query Execution I                                             |                         |||
-|      14 | 10/22 | W   | Query Execution II                                            | P3 Released             |||
-|      15 | 10/27 | M   | Query Optimization                                            |                         |||
-|      16 | 10/29 | W   | Concurrency Control                                           | P2 Due                  |||
-|      17 |  11/3 | M   | Two phase locking                                             |                         |||
-|         |  11/5 | W   | NO CLASS                                                      |                         |||
-|      18 | 11/10 | M   | Timestamp Ordering                                            |                         |||
-|      19 | 11/12 | W   | MVCC                                                          |                         |||
-|      20 | 11/17 | M   | Logging                                                       |                         |||
-|      21 | 11/19 | W   | Recovery                                                      |                         |||
-|      22 | 11/24 | M   | Distributed Databases                                         | P3 Due                  |||
-|      23 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
-|         |  12/1 | M   | Distibuted OLTP                                               |                         |||
-|      24 |  12/3 | W   | Distributed OLAP                                              |                         |||
-|      25 |  12/5 | M   | Final Review Q+A                                              |                         |||
+|       6 |  9/17 | W   | CLASS CANCELED                                                |                         |||
+|       7 |  9/22 | M   | Storage Models, Compression                                   |                         |||
+|       8 |  9/24 | W   | Hash Table                                                    |                         |||
+|       9 |  9/29 | M   | B Trees                                                       | P2 Released             |||
+|      10 |  10/1 | W   | Tries, Bloom Filters                                          | P1 Due                  |||
+|      11 |  10/6 | M   | Concurrent Data Structures                                    |                         |||
+|      12 |  10/8 | W   | Extrenal Sort, External Aggregation                           |                         |||
+|         | 10/13 | M   | Joins                                                         |                         |||
+|         | 10/15 | W   | Midterm Review                                                |                         |||
+|      13 | 10/20 | M   | Midterm Exam                                                  |                         |||
+|      14 | 10/22 | W   | Query Execution I                                             |                         |||
+|      15 | 10/27 | M   | Query Execution II                                            | P3 Released             |||
+|      16 | 10/29 | W   | Query Optimization                                            |                         |||
+|      17 |  11/3 | M   | Concurrency Control                                           | P2 Due                  |||
+|         |  11/5 | W   | Two phase locking                                             |                         |||
+|      18 | 11/10 | M   | NO CLASS                                                      |                         |||
+|      19 | 11/12 | W   | Timestamp Ordering                                            |                         |||
+|      20 | 11/17 | M   | MVCC                                                          |                         |||
+|      21 | 11/19 | W   | Logging                                                       |                         |||
+|      22 | 11/24 | M   | Recovery                                                      |                         |||
+|      23 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |   P3 Due                |||
+|         |  12/1 | M   | Distributed Databases                                         |                         |||
+|      24 |  12/3 | W   | Distibuted OLTP                                               |                         |||
+|      25 |  12/5 | M   | Distributed OLAP                                              |                         |||
 |         | 12/12 | F   | Final Exam                                                    |                         |||
