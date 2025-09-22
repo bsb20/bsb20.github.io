@@ -18,12 +18,12 @@ permalink: /421_f25/sched
 |       5 |  9/10 | W   | Memory Management [(PDF)](./lectures/L5.pdf)  [(PPT)](./lectures/L5.pptx)       |                         |Ch. 13.2 -13.5||
 |         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
 |         |  9/17 | W   | CLASS CANCELED                                                |                         |||
-|       6 |  9/22 | M   | Storage Models, Compression                                   |                         |||
-|       7 |  9/24 | W   | Hash Table                                                    |                         |||
-|       8 |  9/29 | M   | B Trees                                                       | P2 Released / P1 Due    |||
-|       9 |  10/1 | W   | Tries, Bloom Filters                                          |                         |||
-|      10 |  10/6 | M   | Concurrent Data Structures                                    |                         |||
-|      11 |  10/8 | W   | Extrenal Sort, External Aggregation                           |                         |||
+|       6 |  9/22 | M   | Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)  |  | Ch. 11.2, 13.6 ||
+|       7 |  9/24 | W   | B Trees                                                       |                         | Ch. 14.1 - 14.4 ||
+|       8 |  9/29 | M   | Hash Table                                                    | P2 Released / P1 Due    |||
+|       9 |  10/1 | W   | Sorting                                                       |                         |||
+|      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists             |                         |||
+|      11 |  10/8 | W   | Concurrent Data Structures                                    |                         |||
 |      12 | 10/13 | M   | Joins                                                         |                         |||
 |         | 10/15 | W   | Midterm Review                                                |                         |||
 |         | 10/20 | M   | Midterm Exam                                                  |                         |||
