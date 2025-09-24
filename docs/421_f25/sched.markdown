@@ -19,7 +19,7 @@ permalink: /421_f25/sched
 |         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
 |         |  9/17 | W   | CLASS CANCELED                                                |                         |||
 |       6 |  9/22 | M   | Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)  |  | Ch. 11.2, 13.6 ||
-|       7 |  9/24 | W   | B Trees                                                       |                         | Ch. 14.1 - 14.4 ||
+|       7 |  9/24 | W   | B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)                      |  | Ch. 14.1 - 14.4 | [Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)|
 |       8 |  9/29 | M   | Hash Table                                                    | P2 Released / P1 Due    |||
 |       9 |  10/1 | W   | Sorting                                                       |                         |||
 |      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists             |                         |||
