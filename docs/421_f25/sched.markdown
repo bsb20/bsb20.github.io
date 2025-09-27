@@ -16,7 +16,8 @@ permalink: /421_f25/sched
 |       3 |   9/3 | W   | Storage I [(PDF)](./lectures/L3.pdf) [(PPT)](./lectures/L3.pptx)                | P0 Due                  |Ch. 12.1-12.4, 13.2-13.3| [postgres docs](https://www.postgresql.org/docs/current/storage-page-layout.html)|
 |       4 |   9/8 | M   | Storage II [(PDF)](./lectures/L4.pdf)  [(PPT)](./lectures/L4.pptx)             | **[P1 Released](./p1)** |Ch. 14.8, 24.2|[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)|
 |       5 |  9/10 | W   | Memory Management [(PDF)](./lectures/L5.pdf)  [(PPT)](./lectures/L5.pptx)       |                         |Ch. 13.2 -13.5||
-|         |  9/15 | M   | WELL BEING, NO CLASS                                          |                         |||
+|  9/15   | M     | WELL BEING, NO CLASS                                      |                                   |||
+|  --     |  9/16 - 17 | --   | Bootcamp 2 [(Slides)](./lectures/bootcamp_2.pptx) |                               |||
 |         |  9/17 | W   | CLASS CANCELED                                                |                         |||
 |       6 |  9/22 | M   | Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)  |  | Ch. 11.2, 13.6 ||
 |       7 |  9/24 | W   | B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)                      |  | Ch. 14.1 - 14.4 | [Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)|
