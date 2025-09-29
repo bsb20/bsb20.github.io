@@ -21,8 +21,8 @@ permalink: /421_f25/sched
 |         |  9/17 | W   | CLASS CANCELED                                                |                         |||
 |       6 |  9/22 | M   | Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)  |  | Ch. 11.2, 13.6 ||
 |       7 |  9/24 | W   | B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)                      |  | Ch. 14.1 - 14.4 | [Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)|
-|       8 |  9/29 | M   | Hash Table                                                    | P2 Released / P1 Due    |||
-|       9 |  10/1 | W   | Sorting                                                       |                         |||
+|       8 |  9/29 | M   | Hash Table  [(PDF)](./lectures/L8.pdf)  [(PPT)](./lectures/L8.pptx)                  | **[P2 Released](./p2)** / P1 Due | Ch. 14.5, 24.5 |[A gentle intro to analysis of hash table performance](https://www.cs.cmu.edu/~harchol/Probability/chapters/chpt20.pdf) |
+|       9 |  10/1 | W   | Sorting                                                       |                         |Ch. 15.4-15.5| [Parallel sorting (Section 5)](https://www.cs.cmu.edu/~guyb/paralg/paralg/parallel.pdf)|
 |      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists             |                         |||
 |      11 |  10/8 | W   | Concurrent Data Structures                                    |                         |||
 |      12 | 10/13 | M   | Joins                                                         |                         |||
