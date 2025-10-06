@@ -23,7 +23,7 @@ permalink: /421_f25/sched
 |       7 |  9/24 | W   | B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)                      |  | Ch. 14.1 - 14.4 | [Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)|
 |       8 |  9/29 | M   | Hash Table  [(PDF)](./lectures/L8.pdf)  [(PPT)](./lectures/L8.pptx)                  | **[P2 Released](./p2)** / P1 Due | Ch. 14.5, 24.5 |[A gentle intro to analysis of hash table performance](https://www.cs.cmu.edu/~harchol/Probability/chapters/chpt20.pdf) |
 |       9 |  10/1 | W   | Sorting   [(PDF)](./lectures/L9.pdf)  [(PPT)](./lectures/L9.pptx)                                                    |                         |Ch. 15.4-15.5| [Parallel sorting (Section 5)](https://www.cs.cmu.edu/~guyb/paralg/paralg/parallel.pdf)|
-|      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists             |                         |||
+|      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists  [(PDF)](./lectures/L10.pdf)  [(PPT)](./lectures/L10.pptx)           |                         |Ch. 14.1-14.4, 24.1 |[PIM Trees](https://arxiv.org/abs/2211.10516)|
 |      11 |  10/8 | W   | Concurrent Data Structures                                    |                         |||
 |      12 | 10/13 | M   | Joins                                                         |                         |||
 |         | 10/15 | W   | Midterm Review                                                |                         |||
