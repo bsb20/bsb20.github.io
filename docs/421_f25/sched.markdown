@@ -24,8 +24,8 @@ permalink: /421_f25/sched
 |       8 |  9/29 | M   | Hash Table  [(PDF)](./lectures/L8.pdf)  [(PPT)](./lectures/L8.pptx)                  | **[P2 Released](./p2)** / P1 Due | Ch. 14.5, 24.5 |[A gentle intro to analysis of hash table performance](https://www.cs.cmu.edu/~harchol/Probability/chapters/chpt20.pdf) |
 |       9 |  10/1 | W   | Sorting   [(PDF)](./lectures/L9.pdf)  [(PPT)](./lectures/L9.pptx)                                                    |                         |Ch. 15.4-15.5| [Parallel sorting (Section 5)](https://www.cs.cmu.edu/~guyb/paralg/paralg/parallel.pdf)|
 |      10 |  10/6 | M   | Misc. Data Structures: Filters, Tries, Skip Lists  [(PDF)](./lectures/L10.pdf)  [(PPT)](./lectures/L10.pptx)           |                         |Ch. 14.1-14.4, 24.1 |[PIM Trees](https://arxiv.org/abs/2211.10516)|
-|      11 |  10/8 | W   | Concurrent Data Structures   [(PDF)](./lectures/L11.pdf)  [(PPT)](./lectures/L11.pptx)                                 |                         |||
-|      12 | 10/13 | M   | Joins                                                         |                         |||
+|      11 |  10/8 | W   | Concurrent Data Structures   [(PDF)](./lectures/L11.pdf)  [(PPT)](./lectures/L11.pptx)                                 |                         |Ch. 18.10||
+|      12 | 10/13 | M   | Joins     [(PDF)](./lectures/L12.pdf)  [(PPT)](./lectures/L12.pptx)                                                    |                         |Ch. 15.5||
 |         | 10/15 | W   | Midterm Review                                                |                         |||
 |         | 10/20 | M   | Midterm Exam                                                  |                         |||
 |      13 | 10/22 | W   | Query Execution I                                             |                         |||
