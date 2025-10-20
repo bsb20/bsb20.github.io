@@ -32,8 +32,8 @@ permalink: /421_f25/sched
 |      14 | 10/27 | M   | Query Execution II                                            | P3 Released             |||
 |      15 | 10/29 | W   | Query Optimization                                            |                         |||
 |      16 |  11/3 | M   | Concurrency Control                                           | P2 Due                  |||
-|      17 |  11/5 | W   | Two phase locking                                             |                         |||
-|      18 | 11/10 | M   | NO CLASS                                                      |                         |||
+|      17 |  11/5 | W   |  NO CLASS                                                     |                         |||
+|      18 | 11/10 | M   |  Two phase locking                                            |                         |||
 |      19 | 11/12 | W   | Timestamp Ordering                                            |                         |||
 |      20 | 11/17 | M   | MVCC                                                          |                         |||
 |      21 | 11/19 | W   | Logging                                                       |                         |||
