@@ -28,7 +28,7 @@ permalink: /421_f25/sched
 |      12 | 10/13 | M   | Joins     [(PDF)](./lectures/L12.pdf)  [(PPT)](./lectures/L12.pptx)                                                    |                         |Ch. 15.5||
 |         | 10/15 | W   | Midterm Review                                                |                         |||
 |         | 10/20 | M   | Midterm Exam                                                  |                         |||
-|      13 | 10/22 | W   | Query Execution I                                             |                         | Ch. 15.1 - 15. 3, 15.7||
+|      13 | 10/22 | W   | Query Execution I  [(PDF)](./lectures/L13.pdf)  [(PPT)](./lectures/L13.pptx)                                           |                         | Ch. 15.1 - 15. 3, 15.7||
 |      14 | 10/27 | M   | Query Execution II                                            | P3 Released             | Ch. 22 ||
 |      15 | 10/29 | W   | Query Optimization                                            |                         |||
 |      16 |  11/3 | M   | Concurrency Control                                           | P2 Due                  |||
