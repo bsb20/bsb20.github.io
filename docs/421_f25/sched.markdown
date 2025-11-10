@@ -33,7 +33,7 @@ permalink: /421_f25/sched
 |      15 | 10/29 | W   | Query Optimization  [(PDF)](./lectures/L15.pdf)  [(PPT)](./lectures/L15.pptx)                                          |                         |Ch. 16|[Top-Down vs. Bottom-Up](https://15721.courses.cs.cmu.edu/spring2017/papers/15-optimizer2/IDEAS01.pdf)|
 |      16 |  11/3 | M   | In Class Office Hours for Project 2                           |                         |||
 |      17 |  11/5 | W   | In Class Office Hours for Project 2                           |  P2 Due on 11/7         |||
-|      18 | 11/10 | M   |  Concurrency Control [(PDF)](./lectures/L15.pdf)  [(PPT)](./lectures/L15.pptx)                                            |                         |Ch. 18|[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)|
+|      18 | 11/10 | M   |  Concurrency Control [(PDF)](./lectures/L16.pdf)  [(PPT)](./lectures/L16.pptx)                                            |                         |Ch. 18|[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)|
 |      19 | 11/12 | W   | Timestamp Ordering                                            |                         |||
 |      20 | 11/17 | M   | MVCC                                                          |                         |||
 |      21 | 11/19 | W   | Logging                                                       |                         |||
