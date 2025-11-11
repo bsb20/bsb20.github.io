@@ -27,7 +27,7 @@ permalink: /421_f25/sched
 |      11 |  10/8 | W   | Concurrent Data Structures   [(PDF)](./lectures/L11.pdf)  [(PPT)](./lectures/L11.pptx)                                 |                         |Ch. 18.10||
 |      12 | 10/13 | M   | Joins     [(PDF)](./lectures/L12.pdf)  [(PPT)](./lectures/L12.pptx)                                                    |                         |Ch. 15.5||
 |         | 10/15 | W   | Midterm Review                                                |                         |||
-|         | 10/20 | M   | Midterm Exam                                                  |                         |||
+|         | 10/20 | M   | Midterm Exam [(solutions)](./midterm_soln.pdf)                                    |                         |||
 |      13 | 10/22 | W   | Query Execution I  [(PDF)](./lectures/L13.pdf)  [(PPT)](./lectures/L13.pptx)                                           |                         | Ch. 15.1 - 15. 3, 15.7||
 |      14 | 10/27 | M   | Query Execution II  [(PDF)](./lectures/L14.pdf)  [(PPT)](./lectures/L14.pptx)                                          | P3 Released             | Ch. 22 ||
 |      15 | 10/29 | W   | Query Optimization  [(PDF)](./lectures/L15.pdf)  [(PPT)](./lectures/L15.pptx)                                          |                         |Ch. 16|[Top-Down vs. Bottom-Up](https://15721.courses.cs.cmu.edu/spring2017/papers/15-optimizer2/IDEAS01.pdf)|
