@@ -34,12 +34,11 @@ permalink: /421_f25/sched
 |      16 |  11/3 | M   | In Class Office Hours for Project 2                           |                         |||
 |      17 |  11/5 | W   | In Class Office Hours for Project 2                           |  P2 Due on 11/7         |||
 |      18 | 11/10 | M   |  Concurrency Control [(PDF)](./lectures/L16.pdf)  [(PPT)](./lectures/L16.pptx)                                            |                         |Ch. 18|[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)|
-|      19 | 11/12 | W   | Timestamp Ordering                                            |                         |||
-|      20 | 11/17 | M   | MVCC                                                          |                         |||
-|      21 | 11/19 | W   | Logging                                                       |                         |||
-|      22 | 11/24 | M   | Recovery                                                      |                         |||
-|      23 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |   P3 Due                |||
-|      24 |  12/1 | M   | Distributed Databases                                         |                         |||
-|      25 |  12/3 | W   | Distibuted OLTP                                               |                         |||
-|      26 |  12/5 | M   | Distributed OLAP                                              |                         |||
-|         | 12/12 | F   | Final Exam                                                    |                         |||
+|      19 | 11/12 | W   | Two-phase locking                                             |                         |Ch. 18|[Amdahl's Law, Multicore Era](https://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf)|
+|      19 | 11/17 | M   | Timestamp Ordering                                            |                         |||
+|      20 | 11/19 | W   | MVCC                                                          |                         |||
+|      21 | 11/24 | M   | Logging                                                       |                         |||
+|      22 | 11/26 | W   | Recovery                                                      |                         |||
+|         |  12/1 | M   | THANKSGIVING, NO CLASS                                        |                         |||
+|      23 |  12/3 | W   | Distributed Databases                                         |    P3 Due               |||
+|         |  12/12 | F   | Final Exam                                                   |                         |||
