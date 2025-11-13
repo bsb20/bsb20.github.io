@@ -38,7 +38,7 @@ permalink: /421_f25/sched
 |      19 | 11/17 | M   | Timestamp Ordering                                            |                         |||
 |      20 | 11/19 | W   | MVCC                                                          |                         |||
 |      21 | 11/24 | M   | Logging                                                       |                         |||
-|      22 | 11/26 | W   | Recovery                                                      |                         |||
-|         |  12/1 | M   | THANKSGIVING, NO CLASS                                        |                         |||
+|      22 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
+|         |  12/1 | M   | Recovery                                                      |                         |||
 |      23 |  12/3 | W   | Distributed Databases                                         |    P3 Due               |||
-|         |  12/12 | F   | Final Exam                                                   |                         |||
+|         |  12/12| F   | Final Exam                                                    |                         |||
