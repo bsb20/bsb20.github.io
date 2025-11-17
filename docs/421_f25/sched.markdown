@@ -35,7 +35,7 @@ permalink: /421_f25/sched
 |      17 |  11/5 | W   | In Class Office Hours for Project 2                           |  P2 Due on 11/7         |||
 |      18 | 11/10 | M   |  Concurrency Control [(PDF)](./lectures/L16.pdf)  [(PPT)](./lectures/L16.pptx)                                            |                         |Ch. 18|[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)|
 |      19 | 11/12 | W   | Two-phase locking   [(PDF)](./lectures/L17.pdf)  [(PPT)](./lectures/L17.pptx)                                          |                         |Ch. 18|[Amdahl's Law, Multicore Era](https://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf)|
-|      19 | 11/17 | M   | Timestamp Ordering                                            |                         |||
+|      19 | 11/17 | M   | Timestamp Ordering  [(PDF)](./lectures/L18.pdf)  [(PPT)](./lectures/L18.pptx)                                           |                         ||[The OCC Paper](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf)|
 |      20 | 11/19 | W   | MVCC                                                          |                         |||
 |      21 | 11/24 | M   | Logging                                                       |                         |||
 |      22 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
