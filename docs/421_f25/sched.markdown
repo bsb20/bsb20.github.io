@@ -37,7 +37,7 @@ permalink: /421_f25/sched
 |      19 | 11/12 | W   | Two-phase locking   [(PDF)](./lectures/L17.pdf)  [(PPT)](./lectures/L17.pptx)                                          |                         |Ch. 18|[Amdahl's Law, Multicore Era](https://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf)|
 |      19 | 11/17 | M   | Timestamp Ordering  [(PDF)](./lectures/L18.pdf)  [(PPT)](./lectures/L18.pptx)                                           |                         ||[The OCC Paper](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf)|
 |      20 | 11/19 | W   | MVCC  [(PDF)](./lectures/L19.pdf)  [(PPT)](./lectures/L19.pptx)                                                         |                         |Ch. 18.7 - 18.8||
-|      21 | 11/24 | M   | Logging                                                       |                         |||
+|      21 | 11/24 | M   | Logging  [(PDF)](./lectures/L20.pdf)  [(PPT)](./lectures/L20.pptx)                                                     |                         |Ch. 19.1 - 19.8 |[Log-structured File System](https://dl.acm.org/doi/pdf/10.1145/146941.146943)|
 |      22 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
 |         |  12/1 | M   | Recovery                                                      |                         |||
 |      23 |  12/3 | W   | Distributed Databases                                         |    P3 Due               |||
