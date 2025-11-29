@@ -9,6 +9,7 @@ done
 
 ts=$(date +%s) 
 echo $ts > manifest.txt
-ls ./*_small.jpeg | wc -l >> manifest.txt
+ls ./*_small.jpeg | wc -l | sed 's/[[:space:]]//g' >> manifest.txt
+cat manifest.txt
 git commit -a -m "$ts: update frame"
 git push
