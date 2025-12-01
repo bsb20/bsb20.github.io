@@ -39,6 +39,6 @@ permalink: /421_f25/sched
 |      20 | 11/19 | W   | MVCC  [(PDF)](./lectures/L19.pdf)  [(PPT)](./lectures/L19.pptx)                                                         |                         |Ch. 18.7 - 18.8||
 |      21 | 11/24 | M   | Logging  [(PDF)](./lectures/L20.pdf)  [(PPT)](./lectures/L20.pptx)                                                     |                         |Ch. 19.1 - 19.8 |[Log-structured File System](https://dl.acm.org/doi/pdf/10.1145/146941.146943)|
 |      22 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
-|         |  12/1 | M   | Recovery                                                      |                         |||
-|      23 |  12/3 | W   | Distributed Databases                                         |    P3 Due               |||
+|         |  12/1 | M   | Recovery  [(PDF)](./lectures/L20.pdf)  [(PPT)](./lectures/L20.pptx)                                                    |                         |Ch. 19||
+|      23 |  12/3 | W   | Final Review                                         |    P3 Due               |||
 |         |  12/12| F   | Final Exam                                                    |                         |||
