@@ -41,4 +41,4 @@ permalink: /421_f25/sched
 |      22 | 11/26 | W   | THANKSGIVING, NO CLASS                                        |                         |||
 |         |  12/1 | M   | Recovery  [(PDF)](./lectures/L21.pdf)  [(PPT)](./lectures/L21.pptx)                                                    |                         |Ch. 19||
 |      23 |  12/3 | W   | Final Review                                         |    P3 Due               |||
-|         |  12/12| F   | Final Exam                                                    |                         |||
+|         |  12/12| F   | Final Exam [(PDF)](./COMP421Final.pdf)                                                    |                         |||
