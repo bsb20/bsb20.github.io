@@ -3,6 +3,9 @@ layout: default
 title: Teaching 
 permalink: /teaching/
 ---
+Spring 2026\\
+***[COMP 690: Stochastic Performance Modeling and Scheduling in Computer Systems](/690_s26/)***
+
 Fall 2025\\
 ***[COMP 421: Files and Databases](/421_f25/)***
 
