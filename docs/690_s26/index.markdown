@@ -7,7 +7,7 @@ permalink: /690_s26/
 
 ### Monday, Wednesday; 3:35 - 4:50 SN 115
 
-### Office Hours: TBA
+### Office Hours: Monday 10:00 - 12:00, Friday 10:00 - 12:00 in FB 336
 
 ### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
