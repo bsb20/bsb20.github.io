@@ -12,7 +12,9 @@ permalink: /690_s26/
 ### [Syllabus](./syllabus_w_policies.pdf) (PDF)
 
 ### [Homework 1 (Due 1/16)](./hw1.pdf) (PDF)
-### [Homework 2 (Due 2/6)](./hw2.pdf) (PDF)
+### [Homework 2 (Due 2/13, extended due to snow!)](./hw2.pdf) (PDF)
+### [Homework 3 (Due 3/2)](./hw3.pdf) (PDF)
+
 
 
 <!--
