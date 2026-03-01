@@ -14,6 +14,7 @@ permalink: /690_s26/
 ### [Homework 1 (Due 1/16)](./hw1.pdf) (PDF)
 ### [Homework 2 (Due 2/13, extended due to snow!)](./hw2.pdf) (PDF)
 ### [Homework 3 (Due 3/2)](./hw3.pdf) (PDF)
+### [Homework 4 (Due 3/25)](./hw4.pdf) (PDF)
 
 
 
@@ -52,11 +53,11 @@ permalink: /690_s26/
 | 14      | 3/2   | M   | Chpt 11: Exponential Distribution                                                 | HW 3 Due 3/2  |
 | 15      | 3/4   | W   | Chpt 11: Poisson Process                                                          |               |
 | 16      | 3/9   | M   | Chpt 12,13: M/M/1                                                                 |               |
-| 17      | 3/11  | W   | Chpt 14: M/M/k                                                                    | HW 4 Due 3/13 |
+| 17      | 3/11  | W   | Chpt 14: M/M/k                                                                    |               |
 |         | 3/16  | M   | Spring Break, NO CLASS                                                            |               |
 |         | 3/18  | W   | Spring Break, NO CLASS                                                            |               |
 | 18      | 3/23  | M   | Transform Analysis II                                                             |               |
-| 19      | 3/25  | W   | Chpt 15: Capacity Provisioning                                                    |               |
+| 19      | 3/25  | W   | Chpt 15: Capacity Provisioning                                                    | HW 4 Due 3/25 |
 | 20      | 3/30  | M   | Chpt 20: Pareto Distribution                                                      |               |
 | 21      | 4/1   | W   | Chpt 21: Phase-type distributions + start Chpt23                                  |               |
 | 22      | 4/6   | M   | Chpt 23: M/G/1                                                                    |               |
