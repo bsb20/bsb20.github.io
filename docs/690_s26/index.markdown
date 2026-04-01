@@ -15,6 +15,9 @@ permalink: /690_s26/
 ### [Homework 2 (Due 2/13, extended due to snow!)](./hw2.pdf) (PDF)
 ### [Homework 3 (Due 3/2)](./hw3.pdf) (PDF)
 ### [Homework 4 (Due 3/25)](./hw4.pdf) (PDF)
+### [Homework 5 (Due 4/13)](./hw5.pdf) (PDF)
+
+### [Paper Presentation Guide](./paper_presentations.pdf) (PDF)
 
 
 
@@ -22,7 +25,6 @@ permalink: /690_s26/
 ### [Homework 2 (Due 9/17)](./hw2.pdf) (PDF)
 ### [Homework 3 (Due 10/3)](./hw3.pdf) (PDF)
 ### [Homework 4 (Due 11/7)](./hw4.pdf) (PDF)
-### [Paper Presentation Guide](./paper_presentations.pdf) (PDF)
 
  ### [Homework 2 (Due 9/12)](./hw2.pdf) (PDF)
 
