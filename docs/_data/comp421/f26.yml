@@ -1,0 +1,210 @@
+# ─────────────────────────────────────────────────────────────────────────
+# COMP 421 — Fall 2026  ·  SINGLE SOURCE OF TRUTH
+#
+# Edit dates HERE and they update everywhere (schedule table, projects page,
+# and each project spec page). Dates are ISO format: YYYY-MM-DD.
+# Leave a date blank (e.g. `final:`) to have pages render "TBD".
+#
+# Pages read these via Liquid, e.g.
+#   {{ site.data.comp421.f26.projects.p0.due | date: "%-m/%-d/%y" }}   ->  8/28/26
+#
+# HOW THE SCHEDULE PLACES MILESTONES: sched.markdown does NOT hardcode
+# "P1 Released" / "P1 Due" / "Midterm Exam" on rows. For every row it matches
+# the row's date against these project release/due dates and exam dates and
+# fills the label in automatically. So to move a milestone, just change its date.
+#
+# To roll forward a year: copy this file to f27.yml and point the f27
+# pages at site.data.comp421.f27 (see comp421-semester-rollover notes).
+# ─────────────────────────────────────────────────────────────────────────
+
+due_time: "11:59:59 pm"        # standard project deadline time-of-day
+
+# Comment a project out to hide it from the /proj page and the schedule; add
+# it back to reveal it. (Only p0 is revealed now; reveal the rest as released.)
+projects:
+  p0:
+    name: "HyperLogLog: a C++ Primer"
+    release: 2026-08-17
+    due:     2026-08-28
+  #p1:
+  #  name: "Buffer Pool Manager"
+  #  release: 2026-08-31
+  #  due:     2026-09-23
+  #p2:
+  #  name: "B+Tree"
+  #  release: 2026-09-23
+  #  due:     2026-10-26
+  #p3:
+  #  name: "Query Executor"
+  #  release: 2026-10-26
+  #  due:     2026-11-09
+  #p4:
+  #  name: "MVCC"
+  #  release: 2026-11-09
+  #  due:     2026-12-02
+
+exams:
+#  code1:
+#    name: "Code Review 1"
+#    date: 2026-09-23
+#  midterm:
+#    name: "Midterm Exam"
+#    date: 2026-10-19
+#  code2:
+#    name: "Code Review 2"
+#    date: 2026-11-09
+  final:
+    name: "Final Exam"
+    date: TBD
+
+# ─────────────────────────────────────────────────────────────────────────
+# THE CALENDAR + THE LECTURES ARE SEPARATE, so you can reorder lectures freely.
+#
+#   timeline:  the fixed sequence of calendar dates. Two kinds of entry:
+#      • a plain date  (e.g. `- 2026-08-17`)  = a LECTURE SLOT: it shows the
+#        next lecture from the `schedule:` list below, in order.
+#      • a mapping  (e.g. `- { date: 2026-09-07, topic: "LABOR DAY, NO CLASS" }`)
+#        = a PINNED row tied to that date: holidays, bootcamps, exams, reviews,
+#        office-hour days, and the two non-class-day project-due markers. Pinned
+#        rows show their own content and do NOT consume a lecture.
+#        Mapping fields: date, date_label (for ranges/"TBD"), dow, n, topic,
+#        chapters, readings.
+#
+#   schedule:  the LECTURES, in teaching order, with NO dates. To rearrange the
+#      course, just reorder these — each one drops onto the next lecture slot in
+#      the timeline, so the dates take care of themselves. (Keep the number of
+#      lectures == the number of plain-date slots in the timeline.)
+#
+# Project/exam labels are still auto-matched by date, so "P0 Due" lands on the
+# 8/28 pinned row, "Midterm Exam" on the 10/19 pinned row, etc.
+# ─────────────────────────────────────────────────────────────────────────
+
+timeline:
+  - 2026-08-17
+  - 2026-08-19
+  - 2026-08-24
+  - { n: "--", date_label: "8/24 - 25", dow: "--", topic: "Bootcamp 1 [(Slides)](./lectures/bootcamp_1.pdf)" }
+  - 2026-08-26
+  - { date: 2026-08-28 }                                              # P0 Due (auto-labeled; keep == projects.p0.due)
+  - 2026-08-31
+  - 2026-09-02
+  - { date: 2026-09-07, topic: "LABOR DAY, NO CLASS" }
+  - 2026-09-09
+  - 2026-09-14
+  - { n: "--", date_label: "9/14 - 15", dow: "--", topic: "Bootcamp 2 [(Slides)](./lectures/bootcamp_2.pptx)" }
+  - 2026-09-16
+  - { date: 2026-09-21, topic: "WELL-BEING DAY, NO CLASS" }
+  - { n: "--", topic: "**Code reviews This week**"}
+  - 2026-09-23
+  - 2026-09-28
+  - 2026-09-30
+  - 2026-10-05
+  - 2026-10-07
+  - 2026-10-12
+  - { date: 2026-10-14, topic: "Midterm Review" }
+  - { date: 2026-10-19, topic: "Midterm Exam [(solutions)](./midterm_soln.pdf)" } # "Midterm Exam" auto-prepended; keep == exams.midterm
+  - 2026-10-21
+  - 2026-10-26
+  - 2026-10-28
+  - { date: 2026-11-02, topic: "CLASS CANCELED" }
+  - { date: 2026-11-04, topic: "CLASS CANCELED" }
+  - { n:"--", topic: "**Code reviews This week**"}
+  - 2026-11-09
+  - 2026-11-11
+  - 2026-11-16
+  - 2026-11-18
+  - 2026-11-23
+  - { date: 2026-11-25, topic: "THANKSGIVING, NO CLASS" }
+  - 2026-11-30
+  - 2026-12-02
+  - { date_label: "TBD", dow: "-", topic: "Final Exam" }
+
+schedule:
+  - n: 0
+    topic: "Course Overview, Files [(PDF)](./lectures/L0.pdf) [(PPT)](./lectures/L0.pptx)"
+    chapters: "--"
+    readings: "[OSTEP: HDDs](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)"
+  - n: 1
+    topic: "Relational Algebra [(PDF)](./lectures/L1.pdf) [(PPT)](./lectures/L1.pptx)"
+    chapters: "Ch. 2"
+    readings: "[OSTEP: Files](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [OSTEP: File Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [CACM: 50 Years of Databases](https://cacm.acm.org/research/50-years-of-queries/)"
+  - n: 2
+    topic: "SQL [(PDF)](./lectures/L2.pdf) [(PPT)](./lectures/L2.pptx)"
+    chapters: "Ch. 3"
+    readings: "[XKCD](https://xkcd.com/327/)"
+  - n: 2.5
+    topic: "SQL II [(SQL Practice)](./lectures/sql)"
+    chapters: "Ch. 4, Ch. 5"
+  - n: 3
+    topic: "Storage I [(PDF)](./lectures/L3.pdf) [(PPT)](./lectures/L3.pptx)"
+    chapters: "Ch. 12.1-12.4, 13.2-13.3"
+    readings: "[postgres docs](https://www.postgresql.org/docs/current/storage-page-layout.html)"
+  - n: 4
+    topic: "Storage II [(PDF)](./lectures/L4.pdf)  [(PPT)](./lectures/L4.pptx)"
+    chapters: "Ch. 14.8, 24.2"
+    readings: "[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)"
+  - n: 5
+    topic: "Memory Management [(PDF)](./lectures/L5.pdf)  [(PPT)](./lectures/L5.pptx)"
+    chapters: "Ch. 13.2 -13.5"
+  - n: 6
+    topic: "Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)"
+    chapters: "Ch. 11.2, 13.6"
+  - n: 7
+    topic: "B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)"
+    chapters: "Ch. 14.1 - 14.4"
+    readings: "[Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)"
+  - n: 8
+    topic: "Hash Table  [(PDF)](./lectures/L8.pdf)  [(PPT)](./lectures/L8.pptx)"
+    chapters: "Ch. 14.5, 24.5"
+    readings: "[A gentle intro to analysis of hash table performance](https://www.cs.cmu.edu/~harchol/Probability/chapters/chpt20.pdf)"
+  - n: 9
+    topic: "Sorting   [(PDF)](./lectures/L9.pdf)  [(PPT)](./lectures/L9.pptx)"
+    chapters: "Ch. 15.4-15.5"
+    readings: "[Parallel sorting (Section 5)](https://www.cs.cmu.edu/~guyb/paralg/paralg/parallel.pdf)"
+  - n: 10
+    topic: "Misc. Data Structures: Filters, Tries, Skip Lists  [(PDF)](./lectures/L10.pdf)  [(PPT)](./lectures/L10.pptx)"
+    chapters: "Ch. 14.1-14.4, 24.1"
+    readings: "[PIM Trees](https://arxiv.org/abs/2211.10516)"
+  - n: 11
+    topic: "Concurrent Data Structures   [(PDF)](./lectures/L11.pdf)  [(PPT)](./lectures/L11.pptx)"
+    chapters: "Ch. 18.10"
+  - n: 12
+    topic: "Joins     [(PDF)](./lectures/L12.pdf)  [(PPT)](./lectures/L12.pptx)"
+    chapters: "Ch. 15.5"
+  - n: 13
+    topic: "Query Execution I  [(PDF)](./lectures/L13.pdf)  [(PPT)](./lectures/L13.pptx)"
+    chapters: "Ch. 15.1 - 15. 3, 15.7"
+  - n: 14
+    topic: "Query Execution II  [(PDF)](./lectures/L14.pdf)  [(PPT)](./lectures/L14.pptx)"
+    chapters: "Ch. 22"
+  - n: 15
+    topic: "Query Optimization  [(PDF)](./lectures/L15.pdf)  [(PPT)](./lectures/L15.pptx)"
+    chapters: "Ch. 16"
+    readings: "[Top-Down vs. Bottom-Up](https://15721.courses.cs.cmu.edu/spring2017/papers/15-optimizer2/IDEAS01.pdf)"
+  - n: 16
+    topic: "Concurrency Control [(PDF)](./lectures/L16.pdf)  [(PPT)](./lectures/L16.pptx)"
+    chapters: "Ch. 18"
+    readings: "[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)"
+  - n: 17
+    topic: "Two-phase locking   [(PDF)](./lectures/L17.pdf)  [(PPT)](./lectures/L17.pptx)"
+    chapters: "Ch. 18"
+    readings: "[Amdahl's Law, Multicore Era](https://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf)"
+  - n: 18
+    topic: "Timestamp Ordering  [(PDF)](./lectures/L18.pdf)  [(PPT)](./lectures/L18.pptx)"
+    readings: "[The OCC Paper](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf)"
+  - n: 19
+    topic: "MVCC  [(PDF)](./lectures/L19.pdf)  [(PPT)](./lectures/L19.pptx)"
+    chapters: "Ch. 18.7 - 18.8"
+  - n: 20
+    topic: "Logging  [(PDF)](./lectures/L20.pdf)  [(PPT)](./lectures/L20.pptx)"
+    chapters: "Ch. 19.1 - 19.8"
+    readings: "[Log-structured File System](https://dl.acm.org/doi/pdf/10.1145/146941.146943)"
+  - n: 21
+    topic: "Recovery  [(PDF)](./lectures/L21.pdf)  [(PPT)](./lectures/L21.pptx)"
+    chapters: "Ch. 19"
+  - n: 22
+    topic: "Distributed Databases I"
+    chapters: ""
+  - n: 23
+    topic:  "Distributed Databases II"
+    chapters: ""
