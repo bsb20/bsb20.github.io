@@ -10,7 +10,7 @@ permalink: /421_f26/
 
 ### [Course syllabus](421_syllabus.pdf) (PDF)
 
-### [Canvas](https://uncch.instructure.com/courses/91095) | [Gradescope](https://www.gradescope.com/courses/1078768)
+### [Canvas](https://uncch.instructure.com/courses/121432) | [Gradescope](https://www.gradescope.com/courses/1346181)
 
 This is the official course page for COMP 421: Files and Databases.
 This semester (Fall 2026) continues the direction established in Fall 2025, with an emphasis on database *systems* rather than applications and data modeling.
