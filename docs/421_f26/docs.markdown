@@ -97,24 +97,22 @@ If you prefer to use VS Code, this repository is set up to integrate with the VS
 
 1.  Install the [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) extension in VS Code.
 
-2.  Clone your personal course repository onto your host machine and enter it:
+2.  Clone your personal course repository if you have not already:
 
     ```console
     $ git clone <your-personal-repo-url>
     ```
 
-3.  Open that folder in VS Code (**File &rarr; Open Folder...**, then choose the cloned directory).
+3.  Open VS Code.  From the command palette (<kbd>F1</kbd>), run ***Dev Containers: Open Folder in Container...*** and select the folder you cloned your repo into. Wait for the container to build. The first time, it automatically installs all required packages, so this may take a few minutes. Subsequent launches are fast.
 
-4.  From the command palette (<kbd>F1</kbd>), run ***Dev Containers: Open Folder in Container...*** and select the cloned folder. Wait for the container to build. The first time, it automatically installs all required packages, so this may take a few minutes. Subsequent launches are fast.
-
-5.  Once the container is running, choose the build configuration using the **CMake** tab. Click the CMake icon (triangle with a wrench) on the left side bar. Select a *Configure Preset*.  We provide some preset configurations:
+4.  Once the container is running, we must set the build configuration using the **CMake** tab. Click the CMake icon (triangle with a wrench) on the left side bar. Select a *Configure Preset*.  We provide some preset configurations:
 
     - **Debug** &mdash; debug build with [AddressSanitizer](https://github.com/google/sanitizers) (the default).
     - **Debug (TSan)** &mdash; debug build with ThreadSanitizer, equivalent to `-DBUSTUB_SANITIZER=thread`. Use this for assignments and tests that require the thread sanitizer.
     - **Release** &mdash; optimized build with no sanitizer.
     - **RelWithDebInfo** &mdash; optimized build with debug info.
 
-6.  To build and debug a specific test, click to select a target under the CMake **Launch** or **Debug** options. Type the test name you want when prompted.  With a target selected, you can now click Launch/Debug from within **CMake** or at the bottom of the window. 
+5.  To build and debug a specific test, click to select a target under the CMake **Launch** or **Debug** options. For example, type the test name you want when prompted.  With a target selected, you can now click Launch/Debug from within **CMake** or at the bottom of the window. 
 
 <!-- Tutorial links
 
