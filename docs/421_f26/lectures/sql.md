@@ -175,7 +175,7 @@ sqlite> select count(*) from titles;
 Now, it's time to start constructing the SQL queries and put them into the placeholder files.
 
 <div class="question">
-    <h3>Q1 [0 points] (q1_sample):</h3> The purpose of this query is to make sure
+    <h3>Q1 (q1_sample):</h3> The purpose of this query is to make sure
     that the formatting of your output matches exactly the formatting of our auto-grading script.
 
     <p><b>Details:</b> List all Category Names ordered alphabetically. </p>
