@@ -40,6 +40,10 @@ header_pages:
   - caching.markdown
 
 421_title: "COMP 421: Files and Databases"
+# Ordered course-nav items. Only the FILENAME of each entry is used;
+# 421_header.html resolves it within whichever semester dir the current
+# page lives in, so old semesters keep their own nav. The semester prefix
+# below is not significant — no need to bump it on a rollover.
 421_pages:
   - 421_f26/sched.markdown
   - 421_f26/oh.md
