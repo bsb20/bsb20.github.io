@@ -121,86 +121,86 @@ timeline:
 
 schedule:
   - n: 0
-    topic: "Course Overview, Files [(PDF)](./lectures/L0.pdf) [(PPT)](./lectures/L0.pptx)"
+    topic: "Course Overview, Files [(PDF)](./lectures/L00_policies_and_intro.pdf) [(PPT)](./lectures/L00_policies_and_intro.pptx)"
     chapters: "--"
     readings: "[OSTEP: HDDs](https://pages.cs.wisc.edu/~remzi/OSTEP/file-disks.pdf)"
   - n: 1
-    topic: "Relational Algebra [(PDF)](./lectures/L1.pdf) [(PPT)](./lectures/L1.pptx)"
+    topic: "Relational Algebra [(PDF)](./lectures/L01_relational_algebra.pdf) [(PPT)](./lectures/L01_relational_algebra.pptx)"
     chapters: "Ch. 2"
     readings: "[OSTEP: Files](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf), [OSTEP: File Systems](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf), [CACM: 50 Years of Databases](https://cacm.acm.org/research/50-years-of-queries/)"
   - n: 2
-    topic: "SQL [(PDF)](./lectures/L2.pdf) [(PPT)](./lectures/L2.pptx)"
+    topic: "SQL [(PDF)](./lectures/L02_sql.pdf) [(PPT)](./lectures/L02_sql.pptx)"
     chapters: "Ch. 3"
     readings: "[XKCD](https://xkcd.com/327/)"
   - n: 2.5
     topic: "SQL II [(SQL Practice)](./lectures/sql)"
     chapters: "Ch. 4, Ch. 5"
   - n: 3
-    topic: "Storage I [(PDF)](./lectures/L3.pdf) [(PPT)](./lectures/L3.pptx)"
+    topic: "Storage I [(PDF)](./lectures/L03_storage_I.pdf) [(PPT)](./lectures/L03_storage_I.pptx)"
     chapters: "Ch. 12.1-12.4, 13.2-13.3"
     readings: "[postgres docs](https://www.postgresql.org/docs/current/storage-page-layout.html)"
   - n: 4
-    topic: "Storage II [(PDF)](./lectures/L4.pdf)  [(PPT)](./lectures/L4.pptx)"
+    topic: "Storage II [(PDF)](./lectures/L04_storage_tuples_lsm.pdf)  [(PPT)](./lectures/L04_storage_tuples_lsm.pptx)"
     chapters: "Ch. 14.8, 24.2"
     readings: "[The original LSM tree paper](https://www.cs.umb.edu/~poneil/lsmtree.pdf)"
   - n: 5
-    topic: "Memory Management [(PDF)](./lectures/L5.pdf)  [(PPT)](./lectures/L5.pptx)"
+    topic: "Memory Management [(PDF)](./lectures/L05_bpm.pdf)  [(PPT)](./lectures/L05_bpm.pptx)"
     chapters: "Ch. 13.2 -13.5"
   - n: 6
-    topic: "Storage Models, Compression [(PDF)](./lectures/L6.pdf)  [(PPT)](./lectures/L6.pptx)"
+    topic: "Storage Models, Compression [(PDF)](./lectures/L06_columns_compression.pdf)  [(PPT)](./lectures/L06_columns_compression.pptx)"
     chapters: "Ch. 11.2, 13.6"
   - n: 7
-    topic: "B Trees [(PDF)](./lectures/L7.pdf)  [(PPT)](./lectures/L7.pptx)"
+    topic: "B Trees [(PDF)](./lectures/L07_b_plus_tree.pdf)  [(PPT)](./lectures/L07_b_plus_tree.pptx)"
     chapters: "Ch. 14.1 - 14.4"
     readings: "[Index, A History of the](https://wwnorton.com/books/9781324002543); [B-Tree Techniques](https://www.nowpublishers.com/article/Details/DBS-028)"
   - n: 8
-    topic: "Hash Table  [(PDF)](./lectures/L8.pdf)  [(PPT)](./lectures/L8.pptx)"
+    topic: "Concurrent Data Structures   [(PDF)](./lectures/L08_concurrent_b_plus.pdf)  [(PPT)](./lectures/L08_concurrent_b_plus.pptx)"
+    chapters: "Ch. 18.10"
+  - n: 9
+    topic: "Hash Table  [(PDF)](./lectures/L09_hash_tables.pdf)  [(PPT)](./lectures/L09_hash_tables.pptx)"
     chapters: "Ch. 14.5, 24.5"
     readings: "[A gentle intro to analysis of hash table performance](https://www.cs.cmu.edu/~harchol/Probability/chapters/chpt20.pdf)"
-  - n: 9
-    topic: "Sorting   [(PDF)](./lectures/L9.pdf)  [(PPT)](./lectures/L9.pptx)"
+  - n: 10
+    topic: "Sorting   [(PDF)](./lectures/L10_sorting.pdf)  [(PPT)](./lectures/L10_sorting.pptx)"
     chapters: "Ch. 15.4-15.5"
     readings: "[Parallel sorting (Section 5)](https://www.cs.cmu.edu/~guyb/paralg/paralg/parallel.pdf)"
-  - n: 10
-    topic: "Misc. Data Structures: Filters, Tries, Skip Lists  [(PDF)](./lectures/L10.pdf)  [(PPT)](./lectures/L10.pptx)"
+  - n: 11
+    topic: "Misc. Data Structures: Filters, Tries, Skip Lists  [(PDF)](./lectures/L11_filters_skip_list.pdf)  [(PPT)](./lectures/L11_filters_skip_list.pptx)"
     chapters: "Ch. 14.1-14.4, 24.1"
     readings: "[PIM Trees](https://arxiv.org/abs/2211.10516)"
-  - n: 11
-    topic: "Concurrent Data Structures   [(PDF)](./lectures/L11.pdf)  [(PPT)](./lectures/L11.pptx)"
-    chapters: "Ch. 18.10"
   - n: 12
-    topic: "Joins     [(PDF)](./lectures/L12.pdf)  [(PPT)](./lectures/L12.pptx)"
+    topic: "Joins     [(PDF)](./lectures/L12_joins.pdf)  [(PPT)](./lectures/L12_joins.pptx)"
     chapters: "Ch. 15.5"
   - n: 13
-    topic: "Query Execution I  [(PDF)](./lectures/L13.pdf)  [(PPT)](./lectures/L13.pptx)"
+    topic: "Query Execution I  [(PDF)](./lectures/L13_query_execution.pdf)  [(PPT)](./lectures/L13_query_execution.pptx)"
     chapters: "Ch. 15.1 - 15. 3, 15.7"
   - n: 14
-    topic: "Query Execution II  [(PDF)](./lectures/L14.pdf)  [(PPT)](./lectures/L14.pptx)"
+    topic: "Query Execution II  [(PDF)](./lectures/L14_parallel_execution.pdf)  [(PPT)](./lectures/L14_parallel_execution.pptx)"
     chapters: "Ch. 22"
   - n: 15
-    topic: "Query Optimization  [(PDF)](./lectures/L15.pdf)  [(PPT)](./lectures/L15.pptx)"
+    topic: "Query Optimization  [(PDF)](./lectures/L15_optimization.pdf)  [(PPT)](./lectures/L15_optimization.pptx)"
     chapters: "Ch. 16"
     readings: "[Top-Down vs. Bottom-Up](https://15721.courses.cs.cmu.edu/spring2017/papers/15-optimizer2/IDEAS01.pdf)"
   - n: 16
-    topic: "Concurrency Control [(PDF)](./lectures/L16.pdf)  [(PPT)](./lectures/L16.pptx)"
+    topic: "Concurrency Control [(PDF)](./lectures/L16_concurrency_control.pdf)  [(PPT)](./lectures/L16_concurrency_control.pptx)"
     chapters: "Ch. 18"
     readings: "[Clocks](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)"
   - n: 17
-    topic: "Two-phase locking   [(PDF)](./lectures/L17.pdf)  [(PPT)](./lectures/L17.pptx)"
+    topic: "Two-phase locking   [(PDF)](./lectures/L17_2PL.pdf)  [(PPT)](./lectures/L17_2PL.pptx)"
     chapters: "Ch. 18"
     readings: "[Amdahl's Law, Multicore Era](https://research.cs.wisc.edu/multifacet/papers/ieeecomputer08_amdahl_multicore.pdf)"
   - n: 18
-    topic: "Timestamp Ordering  [(PDF)](./lectures/L18.pdf)  [(PPT)](./lectures/L18.pptx)"
+    topic: "Timestamp Ordering  [(PDF)](./lectures/L18_occ.pdf)  [(PPT)](./lectures/L18_occ.pptx)"
     readings: "[The OCC Paper](https://www.eecs.harvard.edu/~htk/publication/1981-tods-kung-robinson.pdf)"
   - n: 19
-    topic: "MVCC  [(PDF)](./lectures/L19.pdf)  [(PPT)](./lectures/L19.pptx)"
+    topic: "MVCC  [(PDF)](./lectures/L19_mvcc.pdf)  [(PPT)](./lectures/L19_mvcc.pptx)"
     chapters: "Ch. 18.7 - 18.8"
   - n: 20
-    topic: "Logging  [(PDF)](./lectures/L20.pdf)  [(PPT)](./lectures/L20.pptx)"
+    topic: "Logging  [(PDF)](./lectures/L20_logging.pdf)  [(PPT)](./lectures/L20_logging.pptx)"
     chapters: "Ch. 19.1 - 19.8"
     readings: "[Log-structured File System](https://dl.acm.org/doi/pdf/10.1145/146941.146943)"
   - n: 21
-    topic: "Recovery  [(PDF)](./lectures/L21.pdf)  [(PPT)](./lectures/L21.pptx)"
+    topic: "Recovery  [(PDF)](./lectures/L21_recovery.pdf)  [(PPT)](./lectures/L21_recovery.pptx)"
     chapters: "Ch. 19"
   - n: 22
     topic: "Distributed Databases I"
