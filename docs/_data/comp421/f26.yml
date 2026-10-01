@@ -57,6 +57,19 @@ exams:
     name: "Final Exam"
     date: TBD
 
+# Oral code reviews. `week_of` is the Monday of the review week; the Code
+# Reviews page renders "Week of <date>" and the schedule pins a marker row.
+# `project` is the project whose code will be discussed.
+code_reviews:
+  cr1:
+    name: "Code Review 1"
+    week_of: 2026-10-05
+    project: "Project 1 (Buffer Pool Manager)"
+  cr2:
+    name: "Code Review 2"
+    week_of: TBD                # date not finalized; page renders "TBD"
+    project: "Project 2 (B+Tree)"
+
 # ─────────────────────────────────────────────────────────────────────────
 # THE CALENDAR + THE LECTURES ARE SEPARATE, so you can reorder lectures freely.
 #
@@ -94,10 +107,10 @@ timeline:
   - { n: "--", date_label: "9/14 - 15", dow: "--", topic: "Bootcamp 2 [(Slides)](./lectures/bootcamp_2.pptx)" }
   - 2026-09-16
   - { date: 2026-09-21, topic: "WELL-BEING DAY, NO CLASS" }
-  - { n: "--", topic: "**Code reviews This week**"}
   - 2026-09-23
   - 2026-09-28
   - 2026-09-30
+  - { n: "--", topic: "**[Code Review 1](./code_reviews) this week**"}
   - 2026-10-05
   - 2026-10-07
   - 2026-10-12
@@ -108,7 +121,7 @@ timeline:
   - 2026-10-28
   - { date: 2026-11-02, topic: "CLASS CANCELED" }
   - { date: 2026-11-04, topic: "CLASS CANCELED" }
-  - { n:"--", topic: "**Code reviews This week**"}
+  - { n: "--", topic: "**[Code Review 2](./code_reviews) this week**"}
   - 2026-11-09
   - 2026-11-11
   - 2026-11-16

@@ -3,8 +3,8 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.421_pages | default: default_paths -%}
-    {%- comment -%} Derive the course semester (e.g. 421_f26) from the page being rendered, so old semesters keep their own nav/title. {%- endcomment -%}
-    {%- assign course_dir = page.path | split: "/" | first -%}
+    {%- comment -%} Derive the course semester (e.g. 421_f26) from the page's URL, so old semesters keep their own nav/title. Use page.url (the real permalink), not page.path: `current` is a symlink to the active semester, and Jekyll processes those pages a second time with page.path = "current/...", which would make this link to the non-existent /current/ dir. page.url is always the /421_fXX/ permalink. {%- endcomment -%}
+    {%- assign course_dir = page.url | remove_first: "/" | split: "/" | first -%}
     <a class="site-title course-title" rel="author" href="{{ course_dir | prepend: "/" | append: "/" | relative_url }}">{{ site.421_title | escape }}</a>
     <br>
     {%- if page_paths -%}
