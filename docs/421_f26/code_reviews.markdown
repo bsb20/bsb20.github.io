@@ -42,11 +42,11 @@ If none of the posted times work for you, contact the instructors to arrange an 
 
 The 25 minute review will be roughly divided into three sections.
 
-1. An intro question about basic project functionality (5-7 minutes, 2 point)
+1. An intro question about basic project functionality (5-7 minutes, 2 points)
 
 2. A longer multi-part question about some detailed aspects of the project you just submitted (12-15 minutes, 3 points)
 
-3. A high-level question to guage your understanding of the project you are currently working on (5-7 minutes, 2 point)
+3. A high-level question to guage your understanding of the project you are currently working on (5-7 minutes, 2 points)
 
 Your specific answers to these questions will comprise 7 of the 10 points possible and will be graded according to a question-specific rubric.  The remaining 3 points will be awarded based on the following *yes/no* criteria that gauge your progress on the projects:
 
@@ -56,7 +56,7 @@ Your specific answers to these questions will comprise 7 of the 10 points possib
 
 3. Can express understanding of the material through a combination of speaking, writing/drawing diagrams, and code examples (1 point)
 
-You will not be allowed to use generative AI or internet search during the review.  However, if you ask the TA/instructor a clarifying question that could be easily looked up, they may elect to search it up for you.  For example, if you want to know the function signature for a paricular C++ std library function, that could be looked up (i.e., don't spend your time memorizing things that are easily looked up and likely immaterial to the above questions).
+You will not be allowed to use generative AI or internet search during the review.  However, if you ask the TA/instructor a clarifying question that could be easily looked up, they may elect to search it up for you.  For example, if you want to know the function signature for a particular C++ std library function, that could be looked up (i.e., don't spend your time memorizing things that are easily looked up and likely immaterial to the above questions).
 
 
 ## How to Prepare
@@ -66,6 +66,9 @@ You will not be allowed to use generative AI or internet search during the revie
 - As a good review, re-read the project descriptions task-by-task.  See if you can diagram your solution to each task on paper or whiteboard.  Identify the major system components/classes you worked on.
 - Look at where you stack up on the leaderboard.  If you are at the top, see if you can explain why.  If you are not at the top, see if you can explain why.
 - See the sample questions below.
-- Maybe: try interacting with these questions via LearnWithAI. **Note: this is optional and is an experimental course feature.  We do not make any guarantees about the quality of responses you will get.  We cannot even guarantee that you won't accidentally hack Hugging Face.**
+- Maybe: try interacting with these questions via the [LearnWithAI chatbot activity](https://learnwithai.unc.edu/courses/27/timeline). **Note: this is optional and is an experimental course feature.  We do not make any guarantees about the quality of responses you will get.  We cannot even guarantee that you won't accidentally hack Hugging Face.**
+
+
+
 
 
