@@ -6,6 +6,9 @@ permalink: /421_f26/code_reviews
 
 {%- assign crs = site.data.comp421.f26.code_reviews -%}
 
+
+# Code Reviews
+
 Twice during the semester you will meet one-on-one with a member of the course
 staff for a **code review** of the course projects you have submitted. Each code
 review is worth 7.5% of your grade (see [Policies](./policies)), so it is important to take these seriously.
@@ -57,6 +60,8 @@ Your specific answers to these questions will comprise 7 of the 10 points possib
 3. Can express understanding of the material through a combination of speaking, writing/drawing diagrams, and code examples (1 point)
 
 You will not be allowed to use generative AI or internet search during the review.  However, if you ask the TA/instructor a clarifying question that could be easily looked up, they may elect to search it up for you.  For example, if you want to know the function signature for a particular C++ std library function, that could be looked up (i.e., don't spend your time memorizing things that are easily looked up and likely immaterial to the above questions).
+
+You can bring in one double-sided page of hand-written notes.  If reviewing these notes becomes an obstacle to having a productive conversation with the instructor in the alotted time, it could affect your score on the above criteria.  We will be reasonable here, please be reasonable in return.
 
 
 ## How to Prepare
