@@ -49,7 +49,7 @@ exams:
 #    date: 2026-09-23
 #  midterm:
 #    name: "Midterm Exam"
-#    date: 2026-10-19
+#    date: 2026-10-21
 #  code2:
 #    name: "Code Review 2"
 #    date: 2026-11-09
@@ -89,7 +89,7 @@ code_reviews:
 #      lectures == the number of plain-date slots in the timeline.)
 #
 # Project/exam labels are still auto-matched by date, so "P0 Due" lands on the
-# 8/28 pinned row, "Midterm Exam" on the 10/19 pinned row, etc.
+# 8/28 pinned row, "Midterm Exam" on the 10/21 pinned row, etc.
 # ─────────────────────────────────────────────────────────────────────────
 
 timeline:
@@ -114,9 +114,9 @@ timeline:
   - 2026-10-05
   - 2026-10-07
   - 2026-10-12
-  - { date: 2026-10-14, topic: "Midterm Review" }
-  - { date: 2026-10-19, topic: "Midterm Exam [(solutions)](./midterm_soln.pdf)" } # "Midterm Exam" auto-prepended; keep == exams.midterm
-  - 2026-10-21
+  - 2026-10-14
+  - { date: 2026-10-19, topic: "Midterm Review [(Practice&nbsp;Midterm)](./practice_midterm.pdf) [(Practice&nbsp;Midterm&nbsp;Solutions)](./midterm_soln.pdf)" }
+  - { date: 2026-10-21, topic: "Midterm Exam" } # keep == exams.midterm
   - 2026-10-26
   - 2026-10-28
   - { date: 2026-11-02, topic: "CLASS CANCELED" }
