@@ -3,14 +3,34 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
+***[Asymptotically Optimal Scheduling of Multiple Parallelizable Job Classes](/papers/stochastic-systems-2026-parallelizable-job-classes.pdf)***\
+Benjamin Berg, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. Stochastic Systems 2026.\
+\
+***[Non-preemptive Datacenter Scheduling via Scaling Cycles](/papers/mama-2026-scaling-cycles.pdf)***\
+Zhongrui Chen, Heyuan Yao, Izzy Grosof, Benjamin Berg. MAMA, PER 2026.\
+\
+***[Scaling the IO Wall with Declarative IO](/papers/osdi-2026-declarative-io.pdf)***\
+Sanjith Athlur, Sara McAllister, Theo Gregersen, Timothy Kim, Yiwei Chen, Sarvesh Tandon, Lucy Wang, Daniel S. Berger, Saurabh Kadekodi, Arif Merchant, Benjamin Berg, Nathan Beckmann, Rashmi Vinayak, George Amvrosiadis, Gregory R. Ganger. OSDI 2026.\
+\
+{% comment %}
+***[BOA Constrictor: Squeezing Performance out of GPUs in the Cloud via Budget-Optimal Allocation](/papers/boa-constrictor-2026.pdf)***\
+Zhouzi Li, Cindy Zhu, Arpan Mukhopadhyay, Mor Harchol-Balter, Benjamin Berg. Preprint 2026.\
+\
+{% endcomment -%}
+***[Mean Field Optimal Core Allocation across Malleable Jobs](/papers/peva-2026-coram.pdf)***\
+Zhouzi Li, Mor Harchol-Balter, Benjamin Berg. Performance Evaluation 2026.\
+\
+***[Improving Nonpreemptive Multiserver Job Scheduling with Quickswap](/papers/peva-2025-quickswap.pdf)***\
+Zhongrui Chen, Adityo Anggraito, Diletta Olliaro, Andrea Marin, Marco Ajmone Marsan, Benjamin Berg, Isaac Grosof. Performance Evaluation 2025.\
+\
+***[Improving Multiresource Job Scheduling with Markovian Service Rate Policies](/papers/pomacs-2025-msr.pdf)***\
+Zhongrui Chen, Isaac Grosof, Benjamin Berg. SIGMETRICS/POMACS 2025.\
+\
 ***[FairyWren: A Sustainable Cache for Emerging Write-Read-Erase Flash Interfaces](https://www.usenix.org/system/files/osdi24-mcallister.pdf)***\
 Sara McAllister, Yucong "Sherry" Wang, Benjamin Berg, Daniel S Berger, George Amvrosiadis, Nathan Beckmann, Gregory R Ganger. OSDI 2024.\
 \
 ***[How to Rent GPUs on a Budget](https://arxiv.org/pdf/2406.15560)***\
 Zhouzi Li, Benjamin Berg, Arpan Mukhopadhyay, Mor Harchol-Balter. EPEW 2024.\
-\
-***[Asymptotically Optimal Scheduling of Multiple Parallelizable Job Classes](https://arxiv.org/pdf/2404.00346)***\
-Benjamin Berg, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. Preprint 2024.\
 \
 ***[Statistical verification of autonomous system controllers under timing uncertainties.](rts-2024.pdf)***\
 Bineet Ghosh, Clara Hobbs, Shengjie Xu, Don Smith, James H Anderson, PS Thiagarajan, Benjamin Berg, Parasara Sridhar Duggirala, Samarjit Chakraborty. Real-Time Systems 2024.\
