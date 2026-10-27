@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kitchen List</title>
+<style>
+  :root {
+    --bg: #f6f3ee; --card: #fff; --ink: #222; --muted: #6b6560; --line: #e4ded5;
+    --accent: #b5532c; --price: #2f6b3a; --note-bg: #fbfaf7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #1b1a18; --card: #252320; --ink: #eee9e2; --muted: #a39b91; --line: #3a3631;
+            --accent: #e0855c; --price: #7cc58a; --note-bg: #1f1d1b; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  header { max-width: 980px; margin: 0 auto; padding: 32px 16px 8px; }
+  h1 { margin: 0 0 4px; font-size: 28px; }
+  .sub { color: var(--muted); margin: 0; }
+  .bar { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; align-items: center; }
+  .bar input, .bar select { padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+         background: var(--card); color: var(--ink); font: inherit; }
+  .bar input { flex: 1; min-width: 180px; }
+  .total { color: var(--muted); font-size: 13px; }
+  main { max-width: 980px; margin: 0 auto; padding: 8px 16px 48px; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--accent);
+       margin: 28px 0 10px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+          padding: 18px; margin-bottom: 16px; display: grid; grid-template-columns: 220px 1fr 1fr; gap: 22px;
+          align-items: start; box-shadow: 0 1px 2px rgba(0,0,0,.04); transition: box-shadow .2s; }
+  .card:hover { box-shadow: 0 6px 20px rgba(0,0,0,.08); }
+  .stage { display: block; width: 220px; aspect-ratio: 1; border-radius: 12px; overflow: hidden;
+           background: radial-gradient(circle at 50% 40%, #ffffff 0%, #f3f0ea 100%);
+           box-shadow: inset 0 0 0 1px rgba(0,0,0,.05); }
+  .thumb { width: 100%; height: 100%; object-fit: contain; padding: 16px; mix-blend-mode: multiply;
+           transition: transform .35s ease; }
+  .stage:hover .thumb { transform: scale(1.07); }
+  @media (max-width: 760px) { .card { grid-template-columns: 1fr; gap: 14px; }
+                              .stage { width: 100%; aspect-ratio: 4 / 3; } }
+  .name { font-weight: 600; font-size: 16px; margin: 0 0 2px; }
+  .card > * { min-width: 0; overflow-wrap: anywhere; }
+  .desc { color: var(--muted); font-size: 13px; margin: 0 0 8px; }
+  .price { color: var(--price); font-weight: 700; font-size: 17px; }
+  .where { color: var(--muted); font-size: 13px; }
+  .tip { font-size: 13px; margin: 8px 0 0; }
+  a.link { display: inline-block; margin-top: 8px; color: var(--accent); font-weight: 600;
+           text-decoration: none; font-size: 14px; }
+  a.link:hover { text-decoration: underline; }
+  textarea { width: 100%; min-height: 96px; resize: vertical; padding: 10px; border-radius: 8px;
+             border: 1px solid var(--line); background: var(--note-bg); color: var(--ink); font: inherit; }
+  textarea:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+  .status { font-size: 11px; color: var(--muted); height: 14px; margin-top: 2px; }
+  footer { color: var(--muted); font-size: 12px; text-align: center; padding-bottom: 32px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Kitchen List</h1>
+  <p class="sub">Prices checked Oct 27, 2026. Sale prices change often, so confirm before buying. Notes save automatically.</p>
+  <div class="bar">
+    <input id="q" type="search" placeholder="Filter items…">
+    <select id="cat"><option value="">All categories</option></select>
+    <span class="total" id="count"></span>
+  </div>
+</header>
+<main id="list"></main>
+<footer id="foot"></footer>
+<script>
+let items = [], notes = {}, useServer = false;
+const timers = {};
+const LS_KEY = 'kitchen-list-notes';
+// With server.py running, notes go to notes.json; on a static host (GitHub Pages) they stay in this browser.
+const readLocal = () => { try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch { return {}; } };
+const writeLocal = () => { try { localStorage.setItem(LS_KEY, JSON.stringify(notes)); return true; } catch { return false; } };
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+async function init() {
+  [items, notes] = await Promise.all([
+    fetch('items.json').then(r => r.json()),
+    fetch('/api/notes').then(r => r.ok ? r.json() : Promise.reject()).then(n => (useServer = true, n)).catch(readLocal)
+  ]);
+  document.getElementById('foot').textContent = useServer
+    ? 'Notes are stored in notes.json next to server.py.'
+    : 'Notes are saved only in this browser on this device.';
+  const cats = [...new Set(items.map(i => i.category))];
+  document.getElementById('cat').innerHTML += cats.map(c => `<option>${esc(c)}</option>`).join('');
+  render();
+}
+
+function render() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const cat = document.getElementById('cat').value;
+  const shown = items.filter(i => (!cat || i.category === cat) &&
+    (!q || (i.name + i.desc + (notes[i.id] || '')).toLowerCase().includes(q)));
+  document.getElementById('count').textContent = `${shown.length} of ${items.length} items`;
+  const groups = {};
+  shown.forEach(i => (groups[i.category] ||= []).push(i));
+  document.getElementById('list').innerHTML = Object.entries(groups).map(([c, list]) =>
+    `<h2>${esc(c)}</h2>` + list.map(i => `
+    <div class="card">
+      <a class="stage" href="${esc(i.url)}" target="_blank" rel="noopener"><img class="thumb" src="${esc(i.image)}" alt="${esc(i.name)}" loading="lazy"></a>
+      <div>
+        <p class="name">${esc(i.name)}</p>
+        <p class="desc">${esc(i.desc)}</p>
+        <div class="price">${esc(i.price)}</div>
+        <div class="where">${esc(i.where)}</div>
+        ${i.tip ? `<p class="tip">${esc(i.tip)}</p>` : ''}
+        <a class="link" href="${esc(i.url)}" target="_blank" rel="noopener">View listing →</a>
+      </div>
+      <div class="notes">
+        <textarea data-id="${esc(i.id)}" placeholder="Notes: color, size, bought?, gift idea…">${esc(notes[i.id] || '')}</textarea>
+        <div class="status" id="s-${esc(i.id)}"></div>
+      </div>
+    </div>`).join('')).join('');
+}
+
+document.addEventListener('input', e => {
+  if (e.target.matches('textarea[data-id]')) {
+    const id = e.target.dataset.id, text = e.target.value;
+    notes[id] = text;
+    const s = document.getElementById('s-' + id);
+    s.textContent = 'Saving…';
+    clearTimeout(timers[id]);
+    timers[id] = setTimeout(async () => {
+      if (!useServer) { s.textContent = writeLocal() ? 'Saved' : 'Save failed: browser storage unavailable'; return; }
+      try {
+        const r = await fetch('/api/notes', { method: 'POST', headers: {'Content-Type': 'application/json'},
+                                             body: JSON.stringify({ id, text }) });
+        s.textContent = r.ok ? 'Saved' : 'Save failed';
+      } catch { s.textContent = 'Save failed: is the server running?'; }
+    }, 500);
+  }
+});
+document.getElementById('q').addEventListener('input', render);
+document.getElementById('cat').addEventListener('change', render);
+init();
+</script>
+</body>
+</html>
