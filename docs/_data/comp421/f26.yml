@@ -119,6 +119,7 @@ timeline:
   - { date: 2026-10-21, topic: "Midterm Exam" } # keep == exams.midterm
   - 2026-10-26
   - 2026-10-28
+  - { n: "--", topic: "[Midterm Solutions](./midterm_exam_soln.pdf)" }
   - { date: 2026-11-02, topic: "CLASS CANCELED" }
   - { date: 2026-11-04, topic: "CLASS CANCELED" }
   - { n: "--", topic: "**[Code Review 2](./code_reviews) this week**"}
