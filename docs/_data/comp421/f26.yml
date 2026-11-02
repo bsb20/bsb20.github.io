@@ -21,6 +21,7 @@ due_time: "11:59:59 pm"        # standard project deadline time-of-day
 
 # Comment a project out to hide it from the /proj page and the schedule; add
 # it back to reveal it. (Only p0 is revealed now; reveal the rest as released.)
+# Add `due_updated: true` to a project to flag a changed due date as "Updated!".
 projects:
   p0:
     name: "HyperLogLog: a C++ Primer"
@@ -33,11 +34,12 @@ projects:
   p2:
     name: "B+Tree"
     release: 2026-09-24
-    due:     2026-10-26
-  #p3:
-  #  name: "Query Executor"
-  #  release: 2026-10-26
-  #  due:     2026-11-09
+    due:     2026-10-28
+    due_updated: true   # shows an "Updated!" tag next to the due date; delete to clear
+  p3:
+    name: "Query Executor"
+    release: 2026-10-26
+    due:     2026-11-16
   #p4:
   #  name: "MVCC"
   #  release: 2026-11-09
