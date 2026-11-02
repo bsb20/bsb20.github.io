@@ -11,6 +11,6 @@ permalink: /421_f26/proj
 |---|---------------------------|--------------|----------------------|
 {% for p in proj -%}
 {%- if p[1].name -%}
-| {{ p[0] | remove: "p" }} | **[{{ p[1].name }}](./{{ p[0] }})** | {{ p[1].release | date: "%-m/%-d/%y" }} | {{ p[1].due | date: "%-m/%-d/%y" }} @ {{ dt }} |
+| {{ p[0] | remove: "p" }} | **[{{ p[1].name }}](./{{ p[0] }})** | {{ p[1].release | date: "%-m/%-d/%y" }} | {{ p[1].due | date: "%-m/%-d/%y" }} @ {{ dt }}{% if p[1].due_updated %} <span style="color:#c00;font-weight:bold">Updated!</span>{% endif %} |
 {% endif -%}
 {%- endfor %}

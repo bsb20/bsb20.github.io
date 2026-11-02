@@ -17,7 +17,7 @@ permalink: /421_f26/sched
 {%- assign rd = entry -%}{%- assign item = f.schedule[li] -%}{%- assign li = li | plus: 1 -%}{%- assign n = item.n -%}{%- assign base = item.topic -%}{%- assign chapters = item.chapters -%}{%- assign readings = item.readings -%}{%- assign dlabel = nil -%}{%- assign dowov = nil -%}
 {%- endif -%}
 {%- assign rowdate = rd | date: "%Y-%m-%d" -%}
-{%- capture proj -%}{% for p in f.projects %}{% assign rel = p[1].release | date: "%Y-%m-%d" %}{% assign due = p[1].due | date: "%Y-%m-%d" %}{% if rowdate and rel == rowdate %}**[{{ p[0] | upcase }} Released](./{{ p[0] }})** {% endif %}{% if rowdate and due == rowdate %}{{ p[0] | upcase }} Due {% endif %}{% endfor %}{%- endcapture -%}
+{%- capture proj -%}{% for p in f.projects %}{% assign rel = p[1].release | date: "%Y-%m-%d" %}{% assign due = p[1].due | date: "%Y-%m-%d" %}{% if rowdate and rel == rowdate %}**[{{ p[0] | upcase }} Released](./{{ p[0] }})** {% endif %}{% if rowdate and due == rowdate %}{{ p[0] | upcase }} Due{% if p[1].due_updated %} <span style="color:#c00;font-weight:bold">Updated!</span>{% endif %} {% endif %}{% endfor %}{%- endcapture -%}
 {%- capture topic -%}{% for ex in f.exams %}{% assign exd = ex[1].date | date: "%Y-%m-%d" %}{% if rowdate and exd == rowdate %}{{ ex[1].name }}{% endif %}{% endfor %}{{ base }}{%- endcapture -%}
 {%- assign tt = topic | strip -%}{%- assign pp = proj | strip -%}
 {%- if n or tt != "" or pp != "" or chapters or readings or dlabel -%}
