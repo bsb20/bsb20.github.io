@@ -40,10 +40,10 @@ projects:
     name: "Query Executor"
     release: 2026-11-02
     due:     2026-11-16
-  #p4:
-  #  name: "MVCC"
-  #  release: 2026-11-09
-  #  due:     2026-12-02
+  p4:
+    name: "MVCC"
+    release: 2026-11-17
+    due:     2026-12-02
 
 exams:
 #  code1:
