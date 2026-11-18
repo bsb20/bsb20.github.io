@@ -57,7 +57,8 @@ exams:
 #    date: 2026-11-09
   final:
     name: "Final Exam"
-    date: TBD
+    date: 2026-12-04
+    time: "4:00–7:00 PM"         # optional; shown after the name on the schedule
 
 # Oral code reviews. `week_of` is the Monday of the review week; the Code
 # Reviews page renders "Week of <date>" and the schedule pins a marker row.
@@ -133,7 +134,7 @@ timeline:
   - { date: 2026-11-25, topic: "THANKSGIVING, NO CLASS" }
   - 2026-11-30
   - 2026-12-02
-  - { date_label: "TBD", dow: "-", topic: "Final Exam" }
+  - { date: 2026-12-04 }       # topic filled in from exams.final
 
 schedule:
   - n: 0
