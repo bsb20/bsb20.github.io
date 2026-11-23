@@ -3,6 +3,9 @@ layout: default
 title: Publications
 permalink: /publications/
 ---
+***[BOA Constrictor: Squeezing Performance out of GPUs in the Cloud via Budget-Optimal Allocation](/papers/boa_constrictor.pdf)***\
+Zhouzi Li, Cindy Zhu, Arpan Mukhopadhyay, Mor Harchol-Balter, Benjamin Berg. In Submission.\
+\
 ***[Asymptotically Optimal Scheduling of Multiple Parallelizable Job Classes](/papers/stochastic-systems-2026-parallelizable-job-classes.pdf)***\
 Benjamin Berg, Benjamin Moseley, Weina Wang, Mor Harchol-Balter. Stochastic Systems 2026.\
 \
@@ -12,11 +15,6 @@ Zhongrui Chen, Heyuan Yao, Izzy Grosof, Benjamin Berg. MAMA, PER 2026.\
 ***[Scaling the IO Wall with Declarative IO](/papers/osdi-2026-declarative-io.pdf)***\
 Sanjith Athlur, Sara McAllister, Theo Gregersen, Timothy Kim, Yiwei Chen, Sarvesh Tandon, Lucy Wang, Daniel S. Berger, Saurabh Kadekodi, Arif Merchant, Benjamin Berg, Nathan Beckmann, Rashmi Vinayak, George Amvrosiadis, Gregory R. Ganger. OSDI 2026.\
 \
-{% comment %}
-***[BOA Constrictor: Squeezing Performance out of GPUs in the Cloud via Budget-Optimal Allocation](/papers/boa-constrictor-2026.pdf)***\
-Zhouzi Li, Cindy Zhu, Arpan Mukhopadhyay, Mor Harchol-Balter, Benjamin Berg. Preprint 2026.\
-\
-{% endcomment -%}
 ***[Mean Field Optimal Core Allocation across Malleable Jobs](/papers/peva-2026-coram.pdf)***\
 Zhouzi Li, Mor Harchol-Balter, Benjamin Berg. Performance Evaluation 2026.\
 \
